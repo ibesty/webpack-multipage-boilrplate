@@ -1,0 +1,1757 @@
+<!-- 页面顶部需要继承layout模版 -->
+<% extend('../../layouts/basic_layouts.art') %>
+
+<% block('header', function(){ %>
+  <% include('../../components/header/index.art') %>	
+<% }) %>
+
+<!-- 页面主体部分为 block content -->
+<% block('content', function(){ %> 
+	<div class="container">
+	<div class="container-top">
+		@{{fsfsdf}}
+		<div class="headline-back">
+			<div class="img-container" style="background-image:url('https://images.ifanr.cn/wp-content/themes/ifanr-5.0-pc/static/images/ifanr/headline-default-bg.jpg')">
+			</div>
+			<div class="headline-back-box">
+				<div class="headline-logo">
+				</div>
+			</div>
+		</div>
+		<div class="bottom-gradient"></div>
+	</div>
+	<div class="container-middle">
+		<div class="o-wrapper c-home">
+			<div class="c-top clearfix">
+				<div class="top-news">
+					<div class="js-unslider">
+						<div class='swiper-wrapper'>
+							<div class="news-item swiper-slide">
+								<img src="https://s3.ifanr.com/wp-content/uploads/2018/10/large_1cf615e2-789a-41a5-9cbc-7dcf63e948e4_meitu_1.jpg!720" />
+								<article class="news-item-hover-content">
+									<div class="news-item-mask"></div>
+									<div class="news-description">
+										<span class="category">公司</span>
+										<span class="author">| 邱同</span>
+										<span class="time">21 小时前</span>
+										<div class="clear-both"></div>
+									</div>
+									<h1 class="news-headline">苹果和换机党们的「灰色产业」战争，从未停止过</h1>
+								</article>
+								<a itemprop="url" href="https://www.ifanr.com/1111565" class="news-link" ga-bind="click" ga-category="MainPage_Banner"
+								 ga-action="ToArticle" ga-label="pic1" target="_blank"></a>
+								<div class="overlay">
+									<div class="top-mask"></div>
+									<div class="bottom-mask"></div>
+								</div>
+							</div>
+							<div class="news-item swiper-slide">
+								<img src="https://s3.ifanr.com/wp-content/uploads/2018/10/pixel-3-xl.jpg!720" />
+								<article class="news-item-hover-content">
+									<div class="news-item-mask"></div>
+									<div class="news-description">
+										<span class="category">产品</span>
+										<span class="author">| 李超凡</span>
+										<span class="time">前天 03:05</span>
+										<div class="clear-both"></div>
+									</div>
+									<h1 class="news-headline">Google 发布会最全汇总：Pixel 3 夜景拍摄吊打 iPhone Xs </h1>
+								</article>
+								<a itemprop="url" href="https://www.ifanr.com/1111091" class="news-link" ga-bind="click" ga-category="MainPage_Banner"
+								 ga-action="ToArticle" ga-label="pic2" target="_blank"></a>
+								<div class="overlay">
+									<div class="top-mask"></div>
+									<div class="bottom-mask"></div>
+								</div>
+							</div>
+							<div class="news-item swiper-slide">
+								<img src="https://s3.ifanr.com/wp-content/uploads/2017/11/jia-dream.jpg!720" />
+								<article class="news-item-hover-content">
+									<div class="news-item-mask"></div>
+									<div class="news-description">
+										<span class="category">公司</span>
+										<span class="author">| 李超凡</span>
+										<span class="time">10-08 17:30</span>
+										<div class="clear-both"></div>
+									</div>
+									<h1 class="news-headline">贾跃亭这个「负心汉」</h1>
+								</article>
+								<a itemprop="url" href="https://www.ifanr.com/1110392" class="news-link" ga-bind="click" ga-category="MainPage_Banner"
+								 ga-action="ToArticle" ga-label="pic3" target="_blank"></a>
+								<div class="overlay">
+									<div class="top-mask"></div>
+									<div class="bottom-mask"></div>
+								</div>
+							</div>
+						</div>
+						<ol class="dots js-dots">
+							<li class="dot active" data-index="1">
+								<span class="yellow-scroll-bar js-dot-transform"></span>
+								1
+							</li>
+							<li class="dot " data-index="2">
+								<span class="yellow-scroll-bar js-dot-transform"></span>
+								2
+							</li>
+							<li class="dot " data-index="3">
+								<span class="yellow-scroll-bar js-dot-transform"></span>
+								3
+							</li>
+						</ol>
+					</div>
+				</div>
+				<div class="video-jiong">
+					<div class="c-top-video">
+						<div class="video-content js-video-content">
+							<div class="video-headline">
+								<a class="video-headline__link" href="https://www.ifanr.com/video/1111576" target="_blank" ga-bind="click"
+								 ga-category="MainPage" ga-action="ClickVideo" ga-label="VideoArticle">
+									<div class="overlay"></div>
+									<div class="video-cover-image">
+										<div class="video-thumbnail" style="background-image: url('https://s3.ifanr.com/wp-content/uploads/2018/10/1010.jpg')"></div>
+										<div class="mask"></div>
+										<div class="video-play-btn ifanrx-play ifanrx"></div>
+										<div class="video-headline-hover__title">
+											<div class="video-description">
+												<span class="category">视频</span>
+												<span class="author">| AppSo</span>
+												<span class="time">00:30</span>
+												<div class="clear-both"></div>
+											</div>
+										</div>
+									</div>
+									<div class="video-headline__title">
+										<div class="video-headline-logo"></div>
+										<p>微信的这个骚操作，让你出场自带酷炫特效</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="top-banner">
+					<div class="top-banner-item">
+						<a href="https://www.ifanr.com/1110961" ga-bind="click" ga-category="MainPage_Banner" ga-action="ToArticle"
+						 ga-label="pic1" target="_blank">
+							<div class="banner-item-image">
+								<div class="thumbnail" style="background-image: url('https://s3.ifanr.com/wp-content/uploads/2018/10/ifixit2.jpg!720')"></div>
+								<div class="banner-img-hover">
+									<span class="category">产品</span>
+									<span class="author">| 李晨</span>
+									<span class="time">昨天 12:30</span>
+									<div class="clear-both"></div>
+								</div>
+							</div>
+						</a>
+						<a href="https://www.ifanr.com/1110961" ga-bind="click" ga-category="MainPage_Banner" ga-action="ToArticle"
+						 ga-label="pic1" target="_blank">
+							<div class="banner-item-title">
+								如果苹果产品只能通过官方维修，你还会选择它吗？
+							</div>
+						</a>
+					</div>
+					<div class="top-banner-item">
+						<a href="https://www.ifanr.com/1111441" ga-bind="click" ga-category="MainPage_Banner" ga-action="ToArticle"
+						 ga-label="pic2" target="_blank">
+							<div class="banner-item-image">
+								<div class="thumbnail" style="background-image: url('https://s3.ifanr.com/wp-content/uploads/2018/10/overview-hero-flo.jpg!720')"></div>
+								<div class="banner-img-hover">
+									<span class="category">产品</span>
+									<span class="author">| 沈星佑</span>
+									<span class="time">昨天 15:46</span>
+									<div class="clear-both"></div>
+								</div>
+							</div>
+						</a>
+						<a href="https://www.ifanr.com/1111441" ga-bind="click" ga-category="MainPage_Banner" ga-action="ToArticle"
+						 ga-label="pic2" target="_blank">
+							<div class="banner-item-title">
+								戴森发新品，据说收到这个卷发棒的女生都哭了
+							</div>
+						</a>
+					</div>
+					<div class="top-banner-item">
+						<a href="https://www.ifanr.com/1111519" ga-bind="click" ga-category="MainPage_Banner" ga-action="ToArticle"
+						 ga-label="pic3" target="_blank">
+							<div class="banner-item-image">
+								<div class="thumbnail" style="background-image: url('https://s3.ifanr.com/wp-content/uploads/2018/10/merlin_144362172_9a214c1e-b45a-4547-a106-1e31f17478b5-jumbo_meitu_1.jpg!720')"></div>
+								<div class="banner-img-hover">
+									<span class="category">公司</span>
+									<span class="author">| 李超凡</span>
+									<span class="time">昨天 16:56</span>
+									<div class="clear-both"></div>
+								</div>
+							</div>
+						</a>
+						<a href="https://www.ifanr.com/1111519" ga-bind="click" ga-category="MainPage_Banner" ga-action="ToArticle"
+						 ga-label="pic3" target="_blank">
+							<div class="banner-item-title">
+								迪士尼绿了
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="article-seperator"></div>
+			<div id="article-container" class="article-collection article-collection--list">
+				<div class="collection-container">
+					<div id="subNav" class="sub-nav  c-header-navbar__content" data-fixed-start="#subNav" data-fixed-end="#footer">
+						<div class="navbar-container">
+							<div class="navbar-box">
+								<div class="left-arrow hidden">
+									<div class="left-white-cover"></div>
+									<i class="ifanrx ifanrx-left"></i>
+								</div>
+								<div class="inner-holder">
+									<ul class="sub-nav-item__container">
+										<li class="sub-nav-item sub-nav-item--active" data-url="" ga-bind="click" ga-category="MainPage_Menu"
+										 ga-action="ClickMenu" ga-label="latest">最新</li>
+										<li class="sub-nav-item" data-url="https://www.ifanr.com/app" ga-bind="click" ga-category="MainPage_Menu"
+										 ga-action="ClickMenu" ga-label="AppSo">AppSo</li>
+										<li class="sub-nav-item" data-url="https://www.ifanr.com/coolbuy" ga-bind="click" ga-category="MainPage_Menu"
+										 ga-action="ClickMenu" ga-label="玩物志">玩物志</li>
+										<li class="sub-nav-item" data-url="https://www.ifanr.com/category/ifanrnews" ga-bind="click" ga-category="MainPage_Menu"
+										 ga-action="ClickMenu" ga-label="每日早报">每日早报</li>
+										<li class="sub-nav-item" data-url="https://www.ifanr.com/category/product" ga-bind="click" ga-category="MainPage_Menu"
+										 ga-action="ClickMenu" ga-label="新锐产品">新锐产品</li>
+										<li class="sub-nav-item" data-url="https://www.ifanr.com/category/intelligentcar" ga-bind="click"
+										 ga-category="MainPage_Menu" ga-action="ClickMenu" ga-label="董车会">董车会</li>
+										<li class="sub-nav-item" data-url="https://www.ifanr.com/category/review" ga-bind="click" ga-category="MainPage_Menu"
+										 ga-action="ClickMenu" ga-label="评测">评测</li>
+										<li class="sub-nav-item" data-url="https://www.ifanr.com/video" ga-bind="click" ga-category="MainPage_Menu"
+										 ga-action="ClickMenu" ga-label="视频">视频</li>
+										<li class="sub-nav-item" data-url="https://www.ifanr.com/category/business" ga-bind="click" ga-category="MainPage_Menu"
+										 ga-action="ClickMenu" ga-label="行业">行业</li>
+										<li class="sub-nav-item" data-url="https://www.ifanr.com/minapp" ga-bind="click" ga-category="MainPage_Menu"
+										 ga-action="ClickMenu" ga-label="小程序">小程序</li>
+										<li class="sub-nav-item" data-url="https://www.ifanr.com/category/game-special" ga-bind="click" ga-category="MainPage_Menu"
+										 ga-action="ClickMenu" ga-label="游戏">游戏</li>
+										<li class="sub-nav-item" data-url="https://www.ifanr.com/category/life" ga-bind="click" ga-category="MainPage_Menu"
+										 ga-action="ClickMenu" ga-label="生活">生活</li>
+										<li class="sub-nav-item" data-url="https://www.ifanr.com/category/people" ga-bind="click" ga-category="MainPage_Menu"
+										 ga-action="ClickMenu" ga-label="人物">人物</li>
+									</ul>
+								</div>
+								<div class="right-arrow">
+									<div class="right-white-cover">
+										<div class="linear-gradient"></div>
+										<div class="white-block"></div>
+									</div>
+									<i class="ifanrx ifanrx-right"></i>
+								</div>
+							</div>
+						</div>
+						<div class="sub-nav-bar--fixed__border"></div>
+					</div>
+					<div id="collectionList" class="collection-list">
+						<div class="article-item article-item--list " data-post-id="1112090">
+							<div class="article-image cover-image">
+								<a href="https://www.ifanr.com/category/product" class="article-label" target="_blank" ga-bind="click"
+								 ga-category="MainPage_List" ga-action="ToItemArticle" ga-label="Article">产品</a>
+								<a href="https://www.ifanr.com/1112090" ga-bind="click" ga-category="MainPage_List" ga-action="ToItemArticle"
+								 ga-label="Article" class="article-link cover-block" target="_blank" style="background-image:url('https://s3.ifanr.com/wp-content/uploads/2018/10/phone-c2-usp08-dac-desktop.jpg!260')">
+								</a>
+							</div>
+							<div class="article-info js-transform">
+								<h3>
+									<a class="js-title-transform" href="https://www.ifanr.com/1112090" ga-bind="click" ga-category="MainPage_List"
+									 ga-action="ToItemArticle" ga-label="Article" target="_blank">Razer Phone 2 正式登场：多了幻彩 RGB 灯，能让它卖得更好吗？</a>
+								</h3>
+								<div class="article-summary">直接比上一代贵了 100 美元。</div>
+								<div class="article-meta" data-post-id="1112090">
+									<div class="author-info">
+										<img src="https://s3.ifanr.com/wp-content/uploads/2049/04/head1.jpg!100" alt="">
+										<span class="author-name">林树洽</span>
+										<a href="https://www.ifanr.com/author/linshuqia" class="cover-block" target="_blank"></a>
+									</div>
+									<time data-timestamp="1539255148">15 分钟前</time>
+									<div class="float-right" data-post-id="1112090">
+										<span class="ifanrx-like like-count js-article-like-count">-</span>
+										<a class="text-link" href="https://www.ifanr.com/1112090#article-comments" target="_blank">
+											<span class="ifanrx ifanrx-reply comment-count">-</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="article-item article-item--list " data-post-id="1111875">
+							<div class="article-image cover-image">
+								<a href="https://www.ifanr.com/category/product" class="article-label" target="_blank" ga-bind="click"
+								 ga-category="MainPage_List" ga-action="ToItemArticle" ga-label="Article">产品</a>
+								<a href="https://www.ifanr.com/1111875" ga-bind="click" ga-category="MainPage_List" ga-action="ToItemArticle"
+								 ga-label="Article" class="article-link cover-block" target="_blank" style="background-image:url('https://s3.ifanr.com/wp-content/uploads/2018/10/pixel-3-xl-back-glass.jpg!260')">
+								</a>
+							</div>
+							<div class="article-info js-transform">
+								<h3>
+									<a class="js-title-transform" href="https://www.ifanr.com/1111875" ga-bind="click" ga-category="MainPage_List"
+									 ga-action="ToItemArticle" ga-label="Article" target="_blank">Google 这台最强 AI 手机，凭什么靠单摄就干掉了 iPhone XS？| 硬哲学</a>
+								</h3>
+								<div class="article-summary">依靠强大的 AI 算法，Google 正在为手机摄影带来另一种发展方向。</div>
+								<div class="article-meta" data-post-id="1111875">
+									<div class="author-info">
+										<img src="https://s3.ifanr.com/wp-content/uploads/2018/03/linxinzhao-1.jpg!100" alt="">
+										<span class="author-name">木斯</span>
+										<a href="https://www.ifanr.com/author/linxinzhao" class="cover-block" target="_blank"></a>
+									</div>
+									<time data-timestamp="1539253818">37 分钟前</time>
+									<div class="float-right" data-post-id="1111875">
+										<span class="ifanrx-like like-count js-article-like-count">-</span>
+										<a class="text-link" href="https://www.ifanr.com/1111875#article-comments" target="_blank">
+											<span class="ifanrx ifanrx-reply comment-count">-</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="article-item article-item--list " data-post-id="1110670">
+							<div class="article-image cover-image">
+								<a href="https://www.ifanr.com/app/" class="article-label" target="_blank" ga-bind="click" ga-category="MainPage_List"
+								 ga-action="ToItemArticle" ga-label="Article">AppSo</a>
+								<a href="https://www.ifanr.com/app/1110670" ga-bind="click" ga-category="MainPage_List" ga-action="ToItemArticle"
+								 ga-label="Article" class="article-link cover-block" target="_blank" style="background-image:url('https://s3.ifanr.com/wp-content/uploads/2018/10/lt.001.jpeg!260')">
+								</a>
+							</div>
+							<div class="article-info js-transform">
+								<h3>
+									<a class="js-title-transform" href="https://www.ifanr.com/app/1110670" ga-bind="click" ga-category="MainPage_List"
+									 ga-action="ToItemArticle" ga-label="Article" target="_blank">没有套路，10 元话费免费领</a>
+								</h3>
+								<div class="article-summary">移动和电信用户请勿打开。</div>
+								<div class="article-meta" data-post-id="1110670">
+									<div class="author-info">
+										<img src="https://s3.ifanr.com/wp-content/uploads/2017/01/wuling.jpg!100" alt="">
+										<span class="author-name">吴羚</span>
+										<a href="https://www.ifanr.com/author/wuling" class="cover-block" target="_blank"></a>
+									</div>
+									<time data-timestamp="1539252085">1 小时前</time>
+									<div class="float-right" data-post-id="1110670">
+										<span class="ifanrx-like like-count js-article-like-count">-</span>
+										<a class="text-link" href="https://www.ifanr.com/app/1110670#article-comments" target="_blank">
+											<span class="ifanrx ifanrx-reply comment-count">-</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="article-item article-item--list " data-post-id="1111902">
+							<div class="article-image cover-image">
+								<a href="https://www.ifanr.com/category/business" class="article-label" target="_blank" ga-bind="click"
+								 ga-category="MainPage_List" ga-action="ToItemArticle" ga-label="Article">公司</a>
+								<a href="https://www.ifanr.com/1111902" ga-bind="click" ga-category="MainPage_List" ga-action="ToItemArticle"
+								 ga-label="Article" class="article-link cover-block" target="_blank" style="background-image:url('https://s3.ifanr.com/wp-content/uploads/2018/10/VCG31398480392-1024x576.jpg!260')">
+								</a>
+							</div>
+							<div class="article-info js-transform">
+								<h3>
+									<a class="js-title-transform" href="https://www.ifanr.com/1111902" ga-bind="click" ga-category="MainPage_List"
+									 ga-action="ToItemArticle" ga-label="Article" target="_blank">过期也能吃，英国最大的超市去掉了一些食品的保质期标签</a>
+								</h3>
+								<div class="article-summary">过期不代表不能吃。</div>
+								<div class="article-meta" data-post-id="1111902">
+									<div class="author-info">
+										<img src="https://s3.ifanr.com/wp-content/uploads/2017/01/wuling.jpg!100" alt="">
+										<span class="author-name">吴羚</span>
+										<a href="https://www.ifanr.com/author/wuling" class="cover-block" target="_blank"></a>
+									</div>
+									<time data-timestamp="1539249914">1 小时前</time>
+									<div class="float-right" data-post-id="1111902">
+										<span class="ifanrx-like like-count js-article-like-count">-</span>
+										<a class="text-link" href="https://www.ifanr.com/1111902#article-comments" target="_blank">
+											<span class="ifanrx ifanrx-reply comment-count">-</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<section class="article-large-item article-large-item--list" data-post-id="1111732">
+							<div class="article-info">
+								<div class="article-info-type">
+									<img src="https://images.ifanr.cn/wp-content/themes/ifanr-5.0-pc/static//images/ifanr/dasheng.svg" class="dasheng-logo"
+									 alt="" />
+									大声 | 5 小时前
+									<img src="https://images.ifanr.cn/wp-content/themes/ifanr-5.0-pc/static//images/ifanr/dasheng-title-seperator.svg"
+									 class="dasheng-title-seperator" alt="" />
+								</div>
+								<h2 class="article-info-title">
+									<a ga-bind="click" ga-action="MainPage_List" ga-category="ToArticle" ga-label="DashengArticle" href="https://www.ifanr.com/dasheng/1111732"
+									 target="_blank">
+										你会发现，让人宅的那些技术发展得都很快，开辟新世界的技术发展得都慢。这很危险，对人类来说这是不是一个陷阱？谁也不知道。
+									</a>
+								</h2>
+								<div class="article-author">
+									<p class="author">
+										<span class="seperator"></span>刘慈欣，科幻作家
+									</p>
+									<div class="collection-and-comment" data-post-id="1111732">
+										<span class="ifanrx-like like-count js-article-like-count">-</span>
+										<a class="text-link" href="https://www.ifanr.com/dasheng/1111732#article-comments" target="_blank">
+											<span class="ifanrx ifanrx-reply comment-count">-</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="article-image">
+								<a ga-bind="click" ga-action="Main" ga-category="Dasheng" href="https://www.ifanr.com/dasheng/1111732" target="_blank"
+								 class="article-link" style="background-image: url('https://s3.ifanr.com/wp-content/uploads/2018/10/liucixin.jpg')">
+								</a>
+							</div>
+							<div class="clear"></div>
+						</section>
+						<div class="video-info">
+							<div class="video-info-left">
+								<div class="video-box">
+									<div class="video-thumbnail-box">
+										<img src="https://s3.ifanr.com/wp-content/uploads/2018/10/1010.jpg!720" class="thumbnail" alt="" />
+										<div class="video-play-btn ifanrx-play ifanrx"></div>
+									</div>
+									<iframe class="js-article-video-src" src="" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<div class="video-info-headline__title">
+									<div class="left">
+										<a href="https://www.ifanr.com/video/1111576" class="title-link js-link" target="_blank" ga-bind="click"
+										 ga-action="ToVideo" ga-category="MainPage_List" ga-label="video">
+											<p class="js-title">微信的这个骚操作，让你出场自带酷炫特效</p>
+										</a>
+										<p class="video-info-headline-time">00:30</p>
+									</div>
+									<div class="right">
+										<a href="https://www.ifanr.com/video/1111576" class="js-link" target="_blank" ga-bind="click" ga-action="ToVideo"
+										 ga-category="MainPage_List" ga-label="video">
+											<i class="ifanrx ifanrx-arrow-right"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="video-info-right">
+								<div class="video-info-box">
+									<div class="video-info-item video-info-item-active" data-url="https://v.qq.com/txp/iframe/player.html?vid=l073977ev30"
+									 data-link="https://www.ifanr.com/video/1111576" data-thumbnail="https://s3.ifanr.com/wp-content/uploads/2018/10/1010.jpg!260">
+										<div class="left">
+											<img src="https://s3.ifanr.com/wp-content/uploads/2018/10/1010.jpg!260" alt="" />
+											<div class="back-hover"></div>
+										</div>
+										<div class="right">
+											<p class="title">微信的这个骚操作，让你出场自带酷炫特效</p>
+											<p class="ifr-video-duration">00:30</p>
+										</div>
+									</div>
+									<div class="video-info-item " data-url="https://v.qq.com/txp/iframe/player.html?vid=g0739hpp6ri" data-link="https://www.ifanr.com/video/1111549"
+									 data-thumbnail="https://s3.ifanr.com/wp-content/uploads/2018/10/Cover.jpg!260">
+										<div class="left">
+											<img src="https://s3.ifanr.com/wp-content/uploads/2018/10/Cover.jpg!260" alt="" />
+											<div class="back-hover"></div>
+										</div>
+										<div class="right">
+											<p class="title">三分钟带你弄懂英特尔酷睿处理器的型号</p>
+											<p class="ifr-video-duration">03:27</p>
+										</div>
+									</div>
+									<div class="video-info-item " data-url="https://v.qq.com/txp/iframe/player.html?vid=l07361jd0fl" data-link="https://www.ifanr.com/video/1110466"
+									 data-thumbnail="https://s3.ifanr.com/wp-content/uploads/2018/10/0926.jpg!260">
+										<div class="left">
+											<img src="https://s3.ifanr.com/wp-content/uploads/2018/10/0926.jpg!260" alt="" />
+											<div class="back-hover"></div>
+										</div>
+										<div class="right">
+											<p class="title">总是忍不住玩手机？快试试这招</p>
+											<p class="ifr-video-duration">00:27</p>
+										</div>
+									</div>
+									<div class="video-info-item " data-url="https://v.qq.com/txp/iframe/player.html?vid=l0725klor2h" data-link="https://www.ifanr.com/video/1109260"
+									 data-thumbnail="https://s3.ifanr.com/wp-content/uploads/2018/09/f-5.jpg!260">
+										<div class="left">
+											<img src="https://s3.ifanr.com/wp-content/uploads/2018/09/f-5.jpg!260" alt="" />
+											<div class="back-hover"></div>
+										</div>
+										<div class="right">
+											<p class="title">假期出去浪，这些装备和 app 你都装好了吗</p>
+											<p class="ifr-video-duration">04:45</p>
+										</div>
+									</div>
+									<div class="video-info-item " data-url="https://v.qq.com/txp/iframe/player.html?vid=k0725cfnk5k" data-link="https://www.ifanr.com/video/1109248"
+									 data-thumbnail="https://s3.ifanr.com/wp-content/uploads/2018/09/f-4.jpg!260">
+										<div class="left">
+											<img src="https://s3.ifanr.com/wp-content/uploads/2018/09/f-4.jpg!260" alt="" />
+											<div class="back-hover"></div>
+										</div>
+										<div class="right">
+											<p class="title">为什么说 Mojave 是 macOS 近四年来最大的更新</p>
+											<p class="ifr-video-duration">03:36</p>
+										</div>
+									</div>
+									<div class="video-info-item " data-url="https://v.qq.com/txp/iframe/player.html?vid=t0723kb8tbv" data-link="https://www.ifanr.com/video/1108855"
+									 data-thumbnail="https://s3.ifanr.com/wp-content/uploads/2018/09/f-3.jpg!260">
+										<div class="left">
+											<img src="https://s3.ifanr.com/wp-content/uploads/2018/09/f-3.jpg!260" alt="" />
+											<div class="back-hover"></div>
+										</div>
+										<div class="right">
+											<p class="title">200元的小米手环 3 NFC 版能买到 Apple Watch 几成的体验？</p>
+											<p class="ifr-video-duration">05:58</p>
+										</div>
+									</div>
+									<div class="video-info-item " data-url="https://v.qq.com/txp/iframe/player.html?vid=m0721ilmngf" data-link="https://www.ifanr.com/video/1107455"
+									 data-thumbnail="https://s3.ifanr.com/wp-content/uploads/2018/09/wukong.jpg!260">
+										<div class="left">
+											<img src="https://s3.ifanr.com/wp-content/uploads/2018/09/wukong.jpg!260" alt="" />
+											<div class="back-hover"></div>
+										</div>
+										<div class="right">
+											<p class="title">最新智能机器人悟空上手体验：和 ta 亲密接触后，我被圈粉了</p>
+											<p class="ifr-video-duration">08:45</p>
+										</div>
+									</div>
+									<div class="video-info-item " data-url="https://v.qq.com/txp/iframe/player.html?vid=e0719b65i5r" data-link="https://www.ifanr.com/video/1106890"
+									 data-thumbnail="https://s3.ifanr.com/wp-content/uploads/2018/09/Cover-4.jpg!260">
+										<div class="left">
+											<img src="https://s3.ifanr.com/wp-content/uploads/2018/09/Cover-4.jpg!260" alt="" />
+											<div class="back-hover"></div>
+										</div>
+										<div class="right">
+											<p class="title">手持稳定器是怎么保持拍摄稳定的？</p>
+											<p class="ifr-video-duration">01:48</p>
+										</div>
+									</div>
+									<div class="video-info-item " data-url="https://v.qq.com/txp/iframe/player.html?vid=l0718k9wkve" data-link="https://www.ifanr.com/video/1106246"
+									 data-thumbnail="https://s3.ifanr.com/wp-content/uploads/2018/09/f.jpeg!260">
+										<div class="left">
+											<img src="https://s3.ifanr.com/wp-content/uploads/2018/09/f.jpeg!260" alt="" />
+											<div class="back-hover"></div>
+										</div>
+										<div class="right">
+											<p class="title">这个超带感的拇指游戏，绝对让你欲罢不能</p>
+											<p class="ifr-video-duration">00:51</p>
+										</div>
+									</div>
+									<div class="video-info-item " data-url="https://v.qq.com/txp/iframe/player.html?vid=p07155b2rrb" data-link="https://www.ifanr.com/video/1105433"
+									 data-thumbnail="https://s3.ifanr.com/wp-content/uploads/2018/09/8AB85AA6-2CAA-48E4-9E0C-CF9FFA3EA506.jpeg!260">
+										<div class="left">
+											<img src="https://s3.ifanr.com/wp-content/uploads/2018/09/8AB85AA6-2CAA-48E4-9E0C-CF9FFA3EA506.jpeg!260"
+											 alt="" />
+											<div class="back-hover"></div>
+										</div>
+										<div class="right">
+											<p class="title">华为、魅族、一加、OPPO 四大「旗舰月饼」跑分横评</p>
+											<p class="ifr-video-duration">03:30</p>
+										</div>
+									</div>
+									<div class="video-info-item " data-url="https://v.qq.com/txp/iframe/player.html?vid=g0711z1th8d" data-link="https://www.ifanr.com/video/1104552"
+									 data-thumbnail="https://s3.ifanr.com/wp-content/uploads/2018/09/sg.jpg!260">
+										<div class="left">
+											<img src="https://s3.ifanr.com/wp-content/uploads/2018/09/sg.jpg!260" alt="" />
+											<div class="back-hover"></div>
+										</div>
+										<div class="right">
+											<p class="title">轻办公领域的佼佼者：微软 Surface Go 使用体验</p>
+											<p class="ifr-video-duration">04:07</p>
+										</div>
+									</div>
+									<div class="video-info-item " data-url="https://v.qq.com/txp/iframe/player.html?vid=x0711ttz99a" data-link="https://www.ifanr.com/video/1104228"
+									 data-thumbnail="https://s3.ifanr.com/wp-content/uploads/2018/09/Cover-3.jpg!260">
+										<div class="left">
+											<img src="https://s3.ifanr.com/wp-content/uploads/2018/09/Cover-3.jpg!260" alt="" />
+											<div class="back-hover"></div>
+										</div>
+										<div class="right">
+											<p class="title">新 iPhone 上的 eSIM 国内真的用不了么：黑科技情报局</p>
+											<p class="ifr-video-duration">02:39</p>
+										</div>
+									</div>
+									<div class="video-info-item " data-url="https://v.qq.com/txp/iframe/player.html?vid=f0707isg722" data-link="https://www.ifanr.com/video/1102855"
+									 data-thumbnail="https://s3.ifanr.com/wp-content/uploads/2018/09/xs.jpg!260">
+										<div class="left">
+											<img src="https://s3.ifanr.com/wp-content/uploads/2018/09/xs.jpg!260" alt="" />
+											<div class="back-hover"></div>
+										</div>
+										<div class="right">
+											<p class="title">iPhone XS 系列首发上手体验：你会花上万元买它吗？</p>
+											<p class="ifr-video-duration">06:35</p>
+										</div>
+									</div>
+									<div class="video-info-item " data-url="https://v.qq.com/txp/iframe/player.html?vid=g0703v8ecub" data-link="https://www.ifanr.com/video/1101223"
+									 data-thumbnail="https://s3.ifanr.com/wp-content/uploads/2018/09/f-2.jpg!260">
+										<div class="left">
+											<img src="https://s3.ifanr.com/wp-content/uploads/2018/09/f-2.jpg!260" alt="" />
+											<div class="back-hover"></div>
+										</div>
+										<div class="right">
+											<p class="title">熬夜=慢性自杀？收下这份「科学熬夜」救命指南</p>
+											<p class="ifr-video-duration">03:46</p>
+										</div>
+									</div>
+									<div class="video-info-item " data-url="https://v.qq.com/txp/iframe/player.html?vid=o07023fau5i" data-link="https://www.ifanr.com/video/1100974"
+									 data-thumbnail="https://s3.ifanr.com/wp-content/uploads/2018/09/Cover-2.jpg!260">
+										<div class="left">
+											<img src="https://s3.ifanr.com/wp-content/uploads/2018/09/Cover-2.jpg!260" alt="" />
+											<div class="back-hover"></div>
+										</div>
+										<div class="right">
+											<p class="title">iOS 12 最全实测指南：要不要升级，看完你就知道了</p>
+											<p class="ifr-video-duration">01:58</p>
+										</div>
+									</div>
+									<div class="video-info-item " data-url="https://v.qq.com/txp/iframe/player.html?vid=y0785fvhsjs" data-link="https://www.ifanr.com/video/1100106"
+									 data-thumbnail="https://s3.ifanr.com/wp-content/uploads/2018/09/Cover-1.jpg!260">
+										<div class="left">
+											<img src="https://s3.ifanr.com/wp-content/uploads/2018/09/Cover-1.jpg!260" alt="" />
+											<div class="back-hover"></div>
+										</div>
+										<div class="right">
+											<p class="title">苹果全新 Apple Watch Series 4 现场上手：苹果表最大的一次升级？</p>
+											<p class="ifr-video-duration">03:10</p>
+										</div>
+									</div>
+									<div class="video-info-item " data-url="https://v.qq.com/txp/iframe/player.html?vid=f0785sc9ut4" data-link="https://www.ifanr.com/video/1100095"
+									 data-thumbnail="https://s3.ifanr.com/wp-content/uploads/2018/09/Cover1.jpg!260">
+										<div class="left">
+											<img src="https://s3.ifanr.com/wp-content/uploads/2018/09/Cover1.jpg!260" alt="" />
+											<div class="back-hover"></div>
+										</div>
+										<div class="right">
+											<p class="title">苹果全新 iPhone XR 现场上手：配置居然直逼旗舰？</p>
+											<p class="ifr-video-duration">02:38</p>
+										</div>
+									</div>
+									<div class="video-info-item " data-url="https://v.qq.com/txp/iframe/player.html?vid=m0785bmvl37" data-link="https://www.ifanr.com/video/1100090"
+									 data-thumbnail="https://s3.ifanr.com/wp-content/uploads/2018/09/XS.jpg!260">
+										<div class="left">
+											<img src="https://s3.ifanr.com/wp-content/uploads/2018/09/XS.jpg!260" alt="" />
+											<div class="back-hover"></div>
+										</div>
+										<div class="right">
+											<p class="title">iPhone XS 系列现场上手：一大一小三配色，你会怎么选？</p>
+											<p class="ifr-video-duration">04:13</p>
+										</div>
+									</div>
+									<div class="video-info-item " data-url="https://player.youku.com/embed/XMzgyMTU2NTQyOA==" data-link="https://www.ifanr.com/video/1099990"
+									 data-thumbnail="https://s3.ifanr.com/wp-content/uploads/2018/09/f-1.jpg!260">
+										<div class="left">
+											<img src="https://s3.ifanr.com/wp-content/uploads/2018/09/f-1.jpg!260" alt="" />
+											<div class="back-hover"></div>
+										</div>
+										<div class="right">
+											<p class="title">双卡 iPhone 也许会迟到，但不缺席！苹果发布会最全总结</p>
+											<p class="ifr-video-duration">04:04</p>
+										</div>
+									</div>
+									<div class="video-info-item " data-url="https://v.qq.com/txp/iframe/player.html?vid=a078431yfq9" data-link="https://www.ifanr.com/video/1099422"
+									 data-thumbnail="https://s3.ifanr.com/wp-content/uploads/2018/09/f.jpg!260">
+										<div class="left">
+											<img src="https://s3.ifanr.com/wp-content/uploads/2018/09/f.jpg!260" alt="" />
+											<div class="back-hover"></div>
+										</div>
+										<div class="right">
+											<p class="title">苹果发布会最全预测：除了双卡 iPhone、全面屏 iPad，还有更多新品！</p>
+											<p class="ifr-video-duration">03:54</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="article-item article-item--list " data-post-id="1111925">
+							<div class="article-image cover-image">
+								<a href="https://www.ifanr.com/category/review" class="article-label" target="_blank" ga-bind="click"
+								 ga-category="MainPage_List" ga-action="ToItemArticle" ga-label="Article">评测</a>
+								<a href="https://www.ifanr.com/1111925" ga-bind="click" ga-category="MainPage_List" ga-action="ToItemArticle"
+								 ga-label="Article" class="article-link cover-block" target="_blank" style="background-image:url('https://s3.ifanr.com/wp-content/uploads/2018/10/9-4.jpg!260')">
+								</a>
+							</div>
+							<div class="article-info js-transform">
+								<h3>
+									<a class="js-title-transform" href="https://www.ifanr.com/1111925" ga-bind="click" ga-category="MainPage_List"
+									 ga-action="ToItemArticle" ga-label="Article" target="_blank">这个能让万物变为「触摸屏」的投影仪，比索尼的还便宜 | 验货</a>
+								</h3>
+								<div class="article-summary">这款产品还是蛮「神奇」的。</div>
+								<div class="article-meta" data-post-id="1111925">
+									<div class="author-info">
+										<img src="https://s3.ifanr.com/wp-content/uploads/2017/03/qiutong-1.jpg!100" alt="">
+										<span class="author-name">邱同</span>
+										<a href="https://www.ifanr.com/author/qiutong" class="cover-block" target="_blank"></a>
+									</div>
+									<time data-timestamp="1539249760">1 小时前</time>
+									<div class="float-right" data-post-id="1111925">
+										<span class="ifanrx-like like-count js-article-like-count">-</span>
+										<a class="text-link" href="https://www.ifanr.com/1111925#article-comments" target="_blank">
+											<span class="ifanrx ifanrx-reply comment-count">-</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="article-item article-item--list " data-post-id="1111833">
+							<div class="article-image cover-image">
+								<a href="https://www.ifanr.com/category/business" class="article-label" target="_blank" ga-bind="click"
+								 ga-category="MainPage_List" ga-action="ToItemArticle" ga-label="Article">公司</a>
+								<a href="https://www.ifanr.com/1111833" ga-bind="click" ga-category="MainPage_List" ga-action="ToItemArticle"
+								 ga-label="Article" class="article-link cover-block" target="_blank" style="background-image:url('https://s3.ifanr.com/wp-content/uploads/2018/10/makerFaire201803.jpg!260')">
+								</a>
+							</div>
+							<div class="article-info js-transform">
+								<h3>
+									<a class="js-title-transform" href="https://www.ifanr.com/1111833" ga-bind="click" ga-category="MainPage_List"
+									 ga-action="ToItemArticle" ga-label="Article" target="_blank">最冷清的 Maker Faire，正在回归的创客精神</a>
+								</h3>
+								<div class="article-summary">今年的 Maker Faire 是最近几年最冷清的，但这可能不是坏事儿。</div>
+								<div class="article-meta" data-post-id="1111833">
+									<div class="author-info">
+										<img src="https://cdn.ifanr.cn/ifanr/default_avatar.png" alt="">
+										<span class="author-name">蒋鸿昌</span>
+										<a href="https://www.ifanr.com/author/jianghongchang" class="cover-block" target="_blank"></a>
+									</div>
+									<time data-timestamp="1539249326">1 小时前</time>
+									<div class="float-right" data-post-id="1111833">
+										<span class="ifanrx-like like-count js-article-like-count">-</span>
+										<a class="text-link" href="https://www.ifanr.com/1111833#article-comments" target="_blank">
+											<span class="ifanrx ifanrx-reply comment-count">-</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="article-item article-item--list " data-post-id="1111849">
+							<div class="article-image cover-image">
+								<a href="https://www.ifanr.com/category/business" class="article-label" target="_blank" ga-bind="click"
+								 ga-category="MainPage_List" ga-action="ToItemArticle" ga-label="Article">公司</a>
+								<a href="https://www.ifanr.com/1111849" ga-bind="click" ga-category="MainPage_List" ga-action="ToItemArticle"
+								 ga-label="Article" class="article-link cover-block" target="_blank" style="background-image:url('https://s3.ifanr.com/wp-content/uploads/2018/10/g12.png!260')">
+								</a>
+							</div>
+							<div class="article-info js-transform">
+								<h3>
+									<a class="js-title-transform" href="https://www.ifanr.com/1111849" ga-bind="click" ga-category="MainPage_List"
+									 ga-action="ToItemArticle" ga-label="Article" target="_blank">苹果电脑卖不动了？可能大家都在等 10 月新品</a>
+								</h3>
+								<div class="article-summary">好不容易捂住了钱包，现在又......</div>
+								<div class="article-meta" data-post-id="1111849">
+									<div class="author-info">
+										<img src="https://s3.ifanr.com/wp-content/uploads/2017/12/ljh_1.jpg!100" alt="">
+										<span class="author-name">雷健恒</span>
+										<a href="https://www.ifanr.com/author/leijianheng" class="cover-block" target="_blank"></a>
+									</div>
+									<time data-timestamp="1539248598">2 小时前</time>
+									<div class="float-right" data-post-id="1111849">
+										<span class="ifanrx-like like-count js-article-like-count">-</span>
+										<a class="text-link" href="https://www.ifanr.com/1111849#article-comments" target="_blank">
+											<span class="ifanrx ifanrx-reply comment-count">-</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="article-item article-item--list " data-post-id="1111807">
+							<div class="article-image cover-image">
+								<a href="https://www.ifanr.com/category/product" class="article-label" target="_blank" ga-bind="click"
+								 ga-category="MainPage_List" ga-action="ToItemArticle" ga-label="Article">产品</a>
+								<a href="https://www.ifanr.com/1111807" ga-bind="click" ga-category="MainPage_List" ga-action="ToItemArticle"
+								 ga-label="Article" class="article-link cover-block" target="_blank" style="background-image:url('https://s3.ifanr.com/wp-content/uploads/2018/10/0gqd.png!260')">
+								</a>
+							</div>
+							<div class="article-info js-transform">
+								<h3>
+									<a class="js-title-transform" href="https://www.ifanr.com/1111807" ga-bind="click" ga-category="MainPage_List"
+									 ga-action="ToItemArticle" ga-label="Article" target="_blank">偶遇白宫首席摄影师，他这样评价 iPhone XS 的拍照效果</a>
+								</h3>
+								<div class="article-summary">为里根和奥巴马拍过照的人，如何评价 iPhone XS？</div>
+								<div class="article-meta" data-post-id="1111807">
+									<div class="author-info">
+										<img src="https://s3.ifanr.com/wp-content/uploads/2018/06/36kr.jpg!100" alt="">
+										<span class="author-name">36 氪</span>
+										<a href="https://www.ifanr.com/author/36kr" class="cover-block" target="_blank"></a>
+									</div>
+									<time data-timestamp="1539243207">3 小时前</time>
+									<div class="float-right" data-post-id="1111807">
+										<span class="ifanrx-like like-count js-article-like-count">-</span>
+										<a class="text-link" href="https://www.ifanr.com/1111807#article-comments" target="_blank">
+											<span class="ifanrx ifanrx-reply comment-count">-</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="article-item article-item--list " data-post-id="1111798">
+							<div class="article-image cover-image">
+								<a href="https://www.ifanr.com/category/product" class="article-label" target="_blank" ga-bind="click"
+								 ga-category="MainPage_List" ga-action="ToItemArticle" ga-label="Article">产品</a>
+								<a href="https://www.ifanr.com/1111798" ga-bind="click" ga-category="MainPage_List" ga-action="ToItemArticle"
+								 ga-label="Article" class="article-link cover-block" target="_blank" style="background-image:url('https://s3.ifanr.com/wp-content/uploads/2018/10/01xp2-banishedwords-facebookJumbo-1024x576.jpg!260')">
+								</a>
+							</div>
+							<div class="article-info js-transform">
+								<h3>
+									<a class="js-title-transform" href="https://www.ifanr.com/1111798" ga-bind="click" ga-category="MainPage_List"
+									 ga-action="ToItemArticle" ga-label="Article" target="_blank">电子烟对青少年负面影响太大，香港政府提议全面禁售</a>
+								</h3>
+								<div class="article-summary">香港政府将于本立法年度提出法例修订建议，「禁止入口、制造、销售、分发及宣传电子烟及其他新型吸烟产品。」</div>
+								<div class="article-meta" data-post-id="1111798">
+									<div class="author-info">
+										<img src="https://s3.ifanr.com/wp-content/uploads/2017/01/wuling.jpg!100" alt="">
+										<span class="author-name">吴羚</span>
+										<a href="https://www.ifanr.com/author/wuling" class="cover-block" target="_blank"></a>
+									</div>
+									<time data-timestamp="1539240005">4 小时前</time>
+									<div class="float-right" data-post-id="1111798">
+										<span class="ifanrx-like like-count js-article-like-count">-</span>
+										<a class="text-link" href="https://www.ifanr.com/1111798#article-comments" target="_blank">
+											<span class="ifanrx ifanrx-reply comment-count">-</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="article-item article-item--list " data-post-id="1111775">
+							<div class="article-image cover-image">
+								<a href="https://www.ifanr.com/category/business" class="article-label" target="_blank" ga-bind="click"
+								 ga-category="MainPage_List" ga-action="ToItemArticle" ga-label="Article">公司</a>
+								<a href="https://www.ifanr.com/1111775" ga-bind="click" ga-category="MainPage_List" ga-action="ToItemArticle"
+								 ga-label="Article" class="article-link cover-block" target="_blank" style="background-image:url('https://s3.ifanr.com/wp-content/uploads/2018/10/RTSXDVB-e1539189449881.jpg!260')">
+								</a>
+							</div>
+							<div class="article-info js-transform">
+								<h3>
+									<a class="js-title-transform" href="https://www.ifanr.com/1111775" ga-bind="click" ga-category="MainPage_List"
+									 ga-action="ToItemArticle" ga-label="Article" target="_blank">优衣库这个新仓库，用机器人取代了 90% 员工</a>
+								</h3>
+								<div class="article-summary">虽然机器人还取代不了人工同传，但是取代仓库管理员绰绰有余</div>
+								<div class="article-meta" data-post-id="1111775">
+									<div class="author-info">
+										<img src="https://s3.ifanr.com/wp-content/uploads/2017/02/WechatIMG3.jpg!100" alt="">
+										<span class="author-name">李超凡</span>
+										<a href="https://www.ifanr.com/author/lichaofan" class="cover-block" target="_blank"></a>
+									</div>
+									<time data-timestamp="1539238050">5 小时前</time>
+									<div class="float-right" data-post-id="1111775">
+										<span class="ifanrx-like like-count js-article-like-count">-</span>
+										<a class="text-link" href="https://www.ifanr.com/1111775#article-comments" target="_blank">
+											<span class="ifanrx ifanrx-reply comment-count">-</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="article-item article-item--list " data-post-id="1111723">
+							<div class="article-image cover-image">
+								<a href="https://www.ifanr.com/category/product" class="article-label" target="_blank" ga-bind="click"
+								 ga-category="MainPage_List" ga-action="ToItemArticle" ga-label="Article">产品</a>
+								<a href="https://www.ifanr.com/1111723" ga-bind="click" ga-category="MainPage_List" ga-action="ToItemArticle"
+								 ga-label="Article" class="article-link cover-block" target="_blank" style="background-image:url('https://s3.ifanr.com/wp-content/uploads/2018/10/samsung-galaxy-s8-uhd-4k-wallpaper.jpg!260')">
+								</a>
+							</div>
+							<div class="article-info js-transform">
+								<h3>
+									<a class="js-title-transform" href="https://www.ifanr.com/1111723" ga-bind="click" ga-category="MainPage_List"
+									 ga-action="ToItemArticle" ga-label="Article" target="_blank">Galaxy S10 登陆工信部，这次将会出现三个版本</a>
+								</h3>
+								<div class="article-summary">新机 Galaxy S10 将会有三个版本，新机还会改用新设计，而且还要用上三摄？</div>
+								<div class="article-meta" data-post-id="1111723">
+									<div class="author-info">
+										<img src="https://s3.ifanr.com/wp-content/uploads/2017/02/lface.jpg!100" alt="">
+										<span class="author-name">梁梦麟</span>
+										<a href="https://www.ifanr.com/author/komoleung" class="cover-block" target="_blank"></a>
+									</div>
+									<time data-timestamp="1539235784">5 小时前</time>
+									<div class="float-right" data-post-id="1111723">
+										<span class="ifanrx-like like-count js-article-like-count">-</span>
+										<a class="text-link" href="https://www.ifanr.com/1111723#article-comments" target="_blank">
+											<span class="ifanrx ifanrx-reply comment-count">-</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="article-item article-item--list " data-post-id="1111631">
+							<div class="article-image cover-image">
+								<a href="https://www.ifanr.com/minapp/" class="article-label" target="_blank" ga-bind="click" ga-category="MainPage_List"
+								 ga-action="ToItemArticle" ga-label="Article">小程序</a>
+								<a href="https://www.ifanr.com/minapp/1111631" ga-bind="click" ga-category="MainPage_List" ga-action="ToItemArticle"
+								 ga-label="Article" class="article-link cover-block" target="_blank" style="background-image:url('https://s3.ifanr.com/wp-content/uploads/2018/10/WechatIMG594.png!260')">
+								</a>
+							</div>
+							<div class="article-info js-transform">
+								<h3>
+									<a class="js-title-transform" href="https://www.ifanr.com/minapp/1111631" ga-bind="click" ga-category="MainPage_List"
+									 ga-action="ToItemArticle" ga-label="Article" target="_blank">四个月获得 4 次融资！微信上的二手图书生意到底为什么备受青睐</a>
+								</h3>
+								<div class="article-summary">二维码是互联网的入口，会是二手书的入口吗？</div>
+								<div class="article-meta" data-post-id="1111631">
+									<div class="author-info">
+										<img src="https://s3.ifanr.com/wp-content/uploads/2018/03/right.png!100" alt="">
+										<span class="author-name">冷思真</span>
+										<a href="https://www.ifanr.com/author/lengsizhen" class="cover-block" target="_blank"></a>
+									</div>
+									<time data-timestamp="1539232109">6 小时前</time>
+									<div class="float-right" data-post-id="1111631">
+										<span class="ifanrx-like like-count js-article-like-count">-</span>
+										<a class="text-link" href="https://www.ifanr.com/minapp/1111631#article-comments" target="_blank">
+											<span class="ifanrx ifanrx-reply comment-count">-</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="article-item article-item--list " data-post-id="1109147">
+							<div class="article-image cover-image">
+								<a href="https://www.ifanr.com/app/" class="article-label" target="_blank" ga-bind="click" ga-category="MainPage_List"
+								 ga-action="ToItemArticle" ga-label="Article">AppSo</a>
+								<a href="https://www.ifanr.com/app/1109147" ga-bind="click" ga-category="MainPage_List" ga-action="ToItemArticle"
+								 ga-label="Article" class="article-link cover-block" target="_blank" style="background-image:url('https://s3.ifanr.com/wp-content/uploads/2018/10/lc.001.jpeg!260')">
+								</a>
+							</div>
+							<div class="article-info js-transform">
+								<h3>
+									<a class="js-title-transform" href="https://www.ifanr.com/app/1109147" ga-bind="click" ga-category="MainPage_List"
+									 ga-action="ToItemArticle" ga-label="Article" target="_blank">只会把工资存余额宝？学会这 6 个技巧，让你走出新人理财第一步</a>
+								</h3>
+								<div class="article-summary">我们梳理了市面上常见的理财产品，希望能帮助大家对此有初步的了解。</div>
+								<div class="article-meta" data-post-id="1109147">
+									<div class="author-info">
+										<img src="https://s3.ifanr.com/wp-content/uploads/2017/01/wuling.jpg!100" alt="">
+										<span class="author-name">吴羚</span>
+										<a href="https://www.ifanr.com/author/wuling" class="cover-block" target="_blank"></a>
+									</div>
+									<time data-timestamp="1539230516">7 小时前</time>
+									<div class="float-right" data-post-id="1109147">
+										<span class="ifanrx-like like-count js-article-like-count">-</span>
+										<a class="text-link" href="https://www.ifanr.com/app/1109147#article-comments" target="_blank">
+											<span class="ifanrx ifanrx-reply comment-count">-</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="article-item article-item--list " data-post-id="1111676">
+							<div class="article-image cover-image">
+								<a href="https://www.ifanr.com/category/ifanrnews" class="article-label" target="_blank" ga-bind="click"
+								 ga-category="MainPage_List" ga-action="ToItemArticle" ga-label="Article">早报</a>
+								<a href="https://www.ifanr.com/1111676" ga-bind="click" ga-category="MainPage_List" ga-action="ToItemArticle"
+								 ga-label="Article" class="article-link cover-block" target="_blank" style="background-image:url('https://s3.ifanr.com/wp-content/uploads/2018/10/d.001.jpeg!260')">
+								</a>
+							</div>
+							<div class="article-info js-transform">
+								<h3>
+									<a class="js-title-transform" href="https://www.ifanr.com/1111676" ga-bind="click" ga-category="MainPage_List"
+									 ga-action="ToItemArticle" ga-label="Article" target="_blank">早报 |「Android 之父」研发小屏超级 AI 手机 / 拼多多称天猫逼商家二选一/
+										广州推严惩霸座新规</a>
+								</h3>
+								<div class="article-summary">• 任天堂成为对独立游戏开发者最友好平台
+									• B 站成立电竞公司
+									• 设备资讯：新 iPad Pro、Galaxy Note 10、雷蛇 Razer Phone 2
+									• 网友热议：滴滴回应乘客在专车喝到尿</div>
+								<div class="article-meta" data-post-id="1111676">
+									<div class="author-info">
+										<img src="https://s3.ifanr.com/wp-content/uploads/2017/01/fjw.jpg!100" alt="">
+										<span class="author-name">方嘉文</span>
+										<a href="https://www.ifanr.com/author/fangjiawen" class="cover-block" target="_blank"></a>
+									</div>
+									<time data-timestamp="1539219170">10 小时前</time>
+									<div class="float-right" data-post-id="1111676">
+										<span class="ifanrx-like like-count js-article-like-count">-</span>
+										<a class="text-link" href="https://www.ifanr.com/1111676#article-comments" target="_blank">
+											<span class="ifanrx ifanrx-reply comment-count">-</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="article-item article-item--list " data-post-id="1111565">
+							<div class="article-image cover-image">
+								<a href="https://www.ifanr.com/category/business" class="article-label" target="_blank" ga-bind="click"
+								 ga-category="MainPage_List" ga-action="ToItemArticle" ga-label="Article">公司</a>
+								<a href="https://www.ifanr.com/1111565" ga-bind="click" ga-category="MainPage_List" ga-action="ToItemArticle"
+								 ga-label="Article" class="article-link cover-block" target="_blank" style="background-image:url('https://s3.ifanr.com/wp-content/uploads/2018/10/large_1cf615e2-789a-41a5-9cbc-7dcf63e948e4_meitu_1.jpg!260')">
+								</a>
+							</div>
+							<div class="article-info js-transform">
+								<h3>
+									<a class="js-title-transform" href="https://www.ifanr.com/1111565" ga-bind="click" ga-category="MainPage_List"
+									 ga-action="ToItemArticle" ga-label="Article" target="_blank">苹果和换机党们的「灰色产业」战争，从未停止过</a>
+								</h3>
+								<div class="article-summary">爱范儿独家对话「灰链」从业者，深入了解「官换机」背后的故事。</div>
+								<div class="article-meta" data-post-id="1111565">
+									<div class="author-info">
+										<img src="https://s3.ifanr.com/wp-content/uploads/2017/03/qiutong-1.jpg!100" alt="">
+										<span class="author-name">邱同</span>
+										<a href="https://www.ifanr.com/author/qiutong" class="cover-block" target="_blank"></a>
+									</div>
+									<time data-timestamp="1539180047">21 小时前</time>
+									<div class="float-right" data-post-id="1111565">
+										<span class="ifanrx-like like-count js-article-like-count">-</span>
+										<a class="text-link" href="https://www.ifanr.com/1111565#article-comments" target="_blank">
+											<span class="ifanrx ifanrx-reply comment-count">-</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="article-item article-item--list " data-post-id="1111572">
+							<div class="article-image cover-image">
+								<a href="https://www.ifanr.com/category/business" class="article-label" target="_blank" ga-bind="click"
+								 ga-category="MainPage_List" ga-action="ToItemArticle" ga-label="Article">公司</a>
+								<a href="https://www.ifanr.com/1111572" ga-bind="click" ga-category="MainPage_List" ga-action="ToItemArticle"
+								 ga-label="Article" class="article-link cover-block" target="_blank" style="background-image:url('https://s3.ifanr.com/wp-content/uploads/2018/10/2-1.jpeg!260')">
+								</a>
+							</div>
+							<div class="article-info js-transform">
+								<h3>
+									<a class="js-title-transform" href="https://www.ifanr.com/1111572" ga-bind="click" ga-category="MainPage_List"
+									 ga-action="ToItemArticle" ga-label="Article" target="_blank">车和家发布品牌「理想智造」，市区能跑一千公里是理想还是现实？</a>
+								</h3>
+								<div class="article-summary">年度最大期待</div>
+								<div class="article-meta" data-post-id="1111572">
+									<div class="author-info">
+										<img src="https://s3.ifanr.com/wp-content/uploads/2018/05/WechatIMG21-1.jpeg!100" alt="">
+										<span class="author-name">吴鹏飞</span>
+										<a href="https://www.ifanr.com/author/wupengfei" class="cover-block" target="_blank"></a>
+									</div>
+									<time data-timestamp="1539171235">23 小时前</time>
+									<div class="float-right" data-post-id="1111572">
+										<span class="ifanrx-like like-count js-article-like-count">-</span>
+										<a class="text-link" href="https://www.ifanr.com/1111572#article-comments" target="_blank">
+											<span class="ifanrx ifanrx-reply comment-count">-</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="article-item article-item--list article-item--video" data-post-id="1111576">
+							<div class="article-image cover-image">
+								<a href="https://www.ifanr.com/video/" class="article-label" target="_blank">爱范儿视频</a>
+								<a href="https://www.ifanr.com/video/1111576" ga-bind="click" ga-category="MainPage_List" ga-action="ToItemArticle"
+								 ga-label="Article" class="video-play-btn ifanrx-play ifanrx" target="_blank"></a>
+								<a href="https://www.ifanr.com/video/1111576" ga-bind="click" ga-category="MainPage_List" ga-action="ToItemArticle"
+								 ga-label="Article" class="article-link cover-block" target="_blank" style="background-image:url('https://s3.ifanr.com/wp-content/uploads/2018/10/1010.jpg!260')">
+								</a>
+							</div>
+							<div class="article-info js-transform">
+								<h3>
+									<a class="js-title-transform" href="https://www.ifanr.com/video/1111576" ga-bind="click" ga-category="MainPage_List"
+									 ga-action="ToItemArticle" ga-label="Article" target="_blank">微信的这个骚操作，让你出场自带酷炫特效</a>
+								</h3>
+								<div class="article-summary"></div>
+								<div class="article-meta" data-post-id="1111576">
+									<div class="author-info">
+										<img src="https://s3.ifanr.com/wp-content/uploads/2016/10/IMG_6168-360x360.jpg!100" alt="">
+										<span class="author-name">AppSo</span>
+										<a href="https://www.ifanr.com/author/appso" class="cover-block" target="_blank"></a>
+									</div>
+									<time data-timestamp="1539169251">昨天 19:00</time>
+									<div class="float-right" data-post-id="1111576">
+										<span class="ifanrx-like like-count js-article-like-count">-</span>
+										<a class="text-link" href="https://www.ifanr.com/video/1111576#article-comments" target="_blank">
+											<span class="ifanrx ifanrx-reply comment-count">-</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="article-item article-item--list " data-post-id="1071472">
+							<div class="article-image cover-image">
+								<a href="https://www.ifanr.com/app/" class="article-label" target="_blank" ga-bind="click" ga-category="MainPage_List"
+								 ga-action="ToItemArticle" ga-label="Article">AppSo</a>
+								<a href="https://www.ifanr.com/app/1071472" ga-bind="click" ga-category="MainPage_List" ga-action="ToItemArticle"
+								 ga-label="Article" class="article-link cover-block" target="_blank" style="background-image:url('https://s3.ifanr.com/wp-content/uploads/2018/07/101002.001-1024x576.jpeg!260')">
+								</a>
+							</div>
+							<div class="article-info js-transform">
+								<h3>
+									<a class="js-title-transform" href="https://www.ifanr.com/app/1071472" ga-bind="click" ga-category="MainPage_List"
+									 ga-action="ToItemArticle" ga-label="Article" target="_blank">还在用 iPhone 自带的计算器？这款 App 比它好用一万倍</a>
+								</h3>
+								<div class="article-summary">Kalkyl 是一款综合素质很高的计算器 app，基础功能完善又贴心，绘图功能又让人眼前一亮。</div>
+								<div class="article-meta" data-post-id="1071472">
+									<div class="author-info">
+										<img src="https://s3.ifanr.com/wp-content/uploads/2016/10/81007314862984315.jpg!100" alt="">
+										<span class="author-name">许英超</span>
+										<a href="https://www.ifanr.com/author/xitemiao" class="cover-block" target="_blank"></a>
+									</div>
+									<time data-timestamp="1539166254">昨天 18:10</time>
+									<div class="float-right" data-post-id="1071472">
+										<span class="ifanrx-like like-count js-article-like-count">-</span>
+										<a class="text-link" href="https://www.ifanr.com/app/1071472#article-comments" target="_blank">
+											<span class="ifanrx ifanrx-reply comment-count">-</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="article-item article-item--list " data-post-id="1111471">
+							<div class="article-image cover-image">
+								<a href="https://www.ifanr.com/app/" class="article-label" target="_blank" ga-bind="click" ga-category="MainPage_List"
+								 ga-action="ToItemArticle" ga-label="Article">AppSo</a>
+								<a href="https://www.ifanr.com/app/1111471" ga-bind="click" ga-category="MainPage_List" ga-action="ToItemArticle"
+								 ga-label="Article" class="article-link cover-block" target="_blank" style="background-image:url('https://s3.ifanr.com/wp-content/uploads/2018/10/bbb.001.jpeg!260')">
+								</a>
+							</div>
+							<div class="article-info js-transform">
+								<h3>
+									<a class="js-title-transform" href="https://www.ifanr.com/app/1111471" ga-bind="click" ga-category="MainPage_List"
+									 ga-action="ToItemArticle" ga-label="Article" target="_blank">仅限今日！ 每月不到 3 块钱，B 站大会员续一年</a>
+								</h3>
+								<div class="article-summary">为精神充值。</div>
+								<div class="article-meta" data-post-id="1111471">
+									<div class="author-info">
+										<img src="https://s3.ifanr.com/wp-content/uploads/2018/06/WechatIMG1377.jpeg!100" alt="">
+										<span class="author-name">李诚慧</span>
+										<a href="https://www.ifanr.com/author/lichenghui" class="cover-block" target="_blank"></a>
+									</div>
+									<time data-timestamp="1539165670">昨天 18:01</time>
+									<div class="float-right" data-post-id="1111471">
+										<span class="ifanrx-like like-count js-article-like-count">-</span>
+										<a class="text-link" href="https://www.ifanr.com/app/1111471#article-comments" target="_blank">
+											<span class="ifanrx ifanrx-reply comment-count">-</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="article-item article-item--list article-item--video" data-post-id="1111549">
+							<div class="article-image cover-image">
+								<a href="https://www.ifanr.com/video/" class="article-label" target="_blank">爱范儿视频</a>
+								<a href="https://www.ifanr.com/video/1111549" ga-bind="click" ga-category="MainPage_List" ga-action="ToItemArticle"
+								 ga-label="Article" class="video-play-btn ifanrx-play ifanrx" target="_blank"></a>
+								<a href="https://www.ifanr.com/video/1111549" ga-bind="click" ga-category="MainPage_List" ga-action="ToItemArticle"
+								 ga-label="Article" class="article-link cover-block" target="_blank" style="background-image:url('https://s3.ifanr.com/wp-content/uploads/2018/10/Cover.jpg!260')">
+								</a>
+							</div>
+							<div class="article-info js-transform">
+								<h3>
+									<a class="js-title-transform" href="https://www.ifanr.com/video/1111549" ga-bind="click" ga-category="MainPage_List"
+									 ga-action="ToItemArticle" ga-label="Article" target="_blank">三分钟带你弄懂英特尔酷睿处理器的型号</a>
+								</h3>
+								<div class="article-summary"></div>
+								<div class="article-meta" data-post-id="1111549">
+									<div class="author-info">
+										<img src="https://s3.ifanr.com/wp-content/uploads/2016/05/v2016-video-headpic-for.jpg!100" alt="">
+										<span class="author-name">爱范儿视频</span>
+										<a href="https://www.ifanr.com/author/ifanrvideo" class="cover-block" target="_blank"></a>
+									</div>
+									<time data-timestamp="1539162536">昨天 17:08</time>
+									<div class="float-right" data-post-id="1111549">
+										<span class="ifanrx-like like-count js-article-like-count">-</span>
+										<a class="text-link" href="https://www.ifanr.com/video/1111549#article-comments" target="_blank">
+											<span class="ifanrx ifanrx-reply comment-count">-</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="article-item article-item--list " data-post-id="1111519">
+							<div class="article-image cover-image">
+								<a href="https://www.ifanr.com/category/business" class="article-label" target="_blank" ga-bind="click"
+								 ga-category="MainPage_List" ga-action="ToItemArticle" ga-label="Article">公司</a>
+								<a href="https://www.ifanr.com/1111519" ga-bind="click" ga-category="MainPage_List" ga-action="ToItemArticle"
+								 ga-label="Article" class="article-link cover-block" target="_blank" style="background-image:url('https://s3.ifanr.com/wp-content/uploads/2018/10/merlin_144362172_9a214c1e-b45a-4547-a106-1e31f17478b5-jumbo_meitu_1.jpg!260')">
+								</a>
+							</div>
+							<div class="article-info js-transform">
+								<h3>
+									<a class="js-title-transform" href="https://www.ifanr.com/1111519" ga-bind="click" ga-category="MainPage_List"
+									 ga-action="ToItemArticle" ga-label="Article" target="_blank">迪士尼绿了</a>
+								</h3>
+								<div class="article-summary">要想成为一家令人尊敬的公司，这也是最基本的要求。</div>
+								<div class="article-meta" data-post-id="1111519">
+									<div class="author-info">
+										<img src="https://s3.ifanr.com/wp-content/uploads/2017/02/WechatIMG3.jpg!100" alt="">
+										<span class="author-name">李超凡</span>
+										<a href="https://www.ifanr.com/author/lichaofan" class="cover-block" target="_blank"></a>
+									</div>
+									<time data-timestamp="1539161786">昨天 16:56</time>
+									<div class="float-right" data-post-id="1111519">
+										<span class="ifanrx-like like-count js-article-like-count">-</span>
+										<a class="text-link" href="https://www.ifanr.com/1111519#article-comments" target="_blank">
+											<span class="ifanrx ifanrx-reply comment-count">-</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="article-item article-item--list " data-post-id="1111436">
+							<div class="article-image cover-image">
+								<a href="https://www.ifanr.com/category/life" class="article-label" target="_blank" ga-bind="click"
+								 ga-category="MainPage_List" ga-action="ToItemArticle" ga-label="Article">生活</a>
+								<a href="https://www.ifanr.com/1111436" ga-bind="click" ga-category="MainPage_List" ga-action="ToItemArticle"
+								 ga-label="Article" class="article-link cover-block" target="_blank" style="background-image:url('https://s3.ifanr.com/wp-content/uploads/2018/10/5a2f450222b32.jpg!260')">
+								</a>
+							</div>
+							<div class="article-info js-transform">
+								<h3>
+									<a class="js-title-transform" href="https://www.ifanr.com/1111436" ga-bind="click" ga-category="MainPage_List"
+									 ga-action="ToItemArticle" ga-label="Article" target="_blank">「乔布斯宿敌」：安卓之父的苦情创业史</a>
+								</h3>
+								<div class="article-summary">生命不息，折腾不止</div>
+								<div class="article-meta" data-post-id="1111436">
+									<div class="author-info">
+										<img src="https://s3.ifanr.com/wp-content/uploads/2018/06/ifanr-logo.png!100" alt="">
+										<span class="author-name">爱范儿</span>
+										<a href="https://www.ifanr.com/author/ifanr" class="cover-block" target="_blank"></a>
+									</div>
+									<time data-timestamp="1539158857">昨天 16:07</time>
+									<div class="float-right" data-post-id="1111436">
+										<span class="ifanrx-like like-count js-article-like-count">-</span>
+										<a class="text-link" href="https://www.ifanr.com/1111436#article-comments" target="_blank">
+											<span class="ifanrx ifanrx-reply comment-count">-</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="article-item article-item--list " data-post-id="1111441">
+							<div class="article-image cover-image">
+								<a href="https://www.ifanr.com/category/product" class="article-label" target="_blank" ga-bind="click"
+								 ga-category="MainPage_List" ga-action="ToItemArticle" ga-label="Article">产品</a>
+								<a href="https://www.ifanr.com/1111441" ga-bind="click" ga-category="MainPage_List" ga-action="ToItemArticle"
+								 ga-label="Article" class="article-link cover-block" target="_blank" style="background-image:url('https://s3.ifanr.com/wp-content/uploads/2018/10/overview-hero-flo.jpg!260')">
+								</a>
+							</div>
+							<div class="article-info js-transform">
+								<h3>
+									<a class="js-title-transform" href="https://www.ifanr.com/1111441" ga-bind="click" ga-category="MainPage_List"
+									 ga-action="ToItemArticle" ga-label="Article" target="_blank">戴森发新品，据说收到这个卷发棒的女生都哭了</a>
+								</h3>
+								<div class="article-summary">再也不用纠结下次过节给女朋友送什么礼物了。</div>
+								<div class="article-meta" data-post-id="1111441">
+									<div class="author-info">
+										<img src="https://s3.ifanr.com/wp-content/uploads/2017/05/shenxingyou-2.jpg!100" alt="">
+										<span class="author-name">沈星佑</span>
+										<a href="https://www.ifanr.com/author/shenxingyou" class="cover-block" target="_blank"></a>
+									</div>
+									<time data-timestamp="1539157580">昨天 15:46</time>
+									<div class="float-right" data-post-id="1111441">
+										<span class="ifanrx-like like-count js-article-like-count">-</span>
+										<a class="text-link" href="https://www.ifanr.com/1111441#article-comments" target="_blank">
+											<span class="ifanrx ifanrx-reply comment-count">-</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="article-item article-item--list " data-post-id="1111383">
+							<div class="article-image cover-image">
+								<a href="https://www.ifanr.com/category/product" class="article-label" target="_blank" ga-bind="click"
+								 ga-category="MainPage_List" ga-action="ToItemArticle" ga-label="Article">产品</a>
+								<a href="https://www.ifanr.com/1111383" ga-bind="click" ga-category="MainPage_List" ga-action="ToItemArticle"
+								 ga-label="Article" class="article-link cover-block" target="_blank" style="background-image:url('https://s3.ifanr.com/wp-content/uploads/2018/10/stardew-valley-is-heading-to-smart-devices-ios-version-out-october-24-pHUqhYslji4.jpg!260')">
+								</a>
+							</div>
+							<div class="article-info js-transform">
+								<h3>
+									<a class="js-title-transform" href="https://www.ifanr.com/1111383" ga-bind="click" ga-category="MainPage_List"
+									 ga-action="ToItemArticle" ga-label="Article" target="_blank">很快，你就可以在 iPhone 和 iPad 上玩《星露谷物语》了</a>
+								</h3>
+								<div class="article-summary">到时，你会掏腰包支持吗？</div>
+								<div class="article-meta" data-post-id="1111383">
+									<div class="author-info">
+										<img src="https://s3.ifanr.com/wp-content/uploads/2049/04/head1.jpg!100" alt="">
+										<span class="author-name">林树洽</span>
+										<a href="https://www.ifanr.com/author/linshuqia" class="cover-block" target="_blank"></a>
+									</div>
+									<time data-timestamp="1539155594">昨天 15:13</time>
+									<div class="float-right" data-post-id="1111383">
+										<span class="ifanrx-like like-count js-article-like-count">-</span>
+										<a class="text-link" href="https://www.ifanr.com/1111383#article-comments" target="_blank">
+											<span class="ifanrx ifanrx-reply comment-count">-</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="article-item article-item--list " data-post-id="1111355">
+							<div class="article-image cover-image">
+								<a href="https://www.ifanr.com/app/" class="article-label" target="_blank" ga-bind="click" ga-category="MainPage_List"
+								 ga-action="ToItemArticle" ga-label="Article">AppSo</a>
+								<a href="https://www.ifanr.com/app/1111355" ga-bind="click" ga-category="MainPage_List" ga-action="ToItemArticle"
+								 ga-label="Article" class="article-link cover-block" target="_blank" style="background-image:url('https://s3.ifanr.com/wp-content/uploads/2018/10/VCG211119763836.png!260')">
+								</a>
+							</div>
+							<div class="article-info js-transform">
+								<h3>
+									<a class="js-title-transform" href="https://www.ifanr.com/app/1111355" ga-bind="click" ga-category="MainPage_List"
+									 ga-action="ToItemArticle" ga-label="Article" target="_blank">上千人 iPhone 账号被盗刷！快用这个办法保护你的银行卡</a>
+								</h3>
+								<div class="article-summary">注意！这不是演习</div>
+								<div class="article-meta" data-post-id="1111355">
+									<div class="author-info">
+										<img src="https://s3.ifanr.com/wp-content/uploads/2017/12/ljh_1.jpg!100" alt="">
+										<span class="author-name">雷健恒</span>
+										<a href="https://www.ifanr.com/author/leijianheng" class="cover-block" target="_blank"></a>
+									</div>
+									<time data-timestamp="1539155394">昨天 15:09</time>
+									<div class="float-right" data-post-id="1111355">
+										<span class="ifanrx-like like-count js-article-like-count">-</span>
+										<a class="text-link" href="https://www.ifanr.com/app/1111355#article-comments" target="_blank">
+											<span class="ifanrx ifanrx-reply comment-count">-</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="article-item article-item--list " data-post-id="1110961">
+							<div class="article-image cover-image">
+								<a href="https://www.ifanr.com/category/product" class="article-label" target="_blank" ga-bind="click"
+								 ga-category="MainPage_List" ga-action="ToItemArticle" ga-label="Article">产品</a>
+								<a href="https://www.ifanr.com/1110961" ga-bind="click" ga-category="MainPage_List" ga-action="ToItemArticle"
+								 ga-label="Article" class="article-link cover-block" target="_blank" style="background-image:url('https://s3.ifanr.com/wp-content/uploads/2018/10/ifixit2.jpg!260')">
+								</a>
+							</div>
+							<div class="article-info js-transform">
+								<h3>
+									<a class="js-title-transform" href="https://www.ifanr.com/1110961" ga-bind="click" ga-category="MainPage_List"
+									 ga-action="ToItemArticle" ga-label="Article" target="_blank">如果苹果产品只能通过官方维修，你还会选择它吗？</a>
+								</h3>
+								<div class="article-summary">我期望的是默默保护，而不是指手画脚。</div>
+								<div class="article-meta" data-post-id="1110961">
+									<div class="author-info">
+										<img src="https://s3.ifanr.com/wp-content/uploads/2018/07/lichen.jpeg!100" alt="">
+										<span class="author-name">李晨</span>
+										<a href="https://www.ifanr.com/author/lichen" class="cover-block" target="_blank"></a>
+									</div>
+									<time data-timestamp="1539145811">昨天 12:30</time>
+									<div class="float-right" data-post-id="1110961">
+										<span class="ifanrx-like like-count js-article-like-count">-</span>
+										<a class="text-link" href="https://www.ifanr.com/1110961#article-comments" target="_blank">
+											<span class="ifanrx ifanrx-reply comment-count">-</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="load-more-card">
+						<span class="load-more-btn">加载更多</span>
+						<span class="no-more-text hidden">没有更多了</span>
+						<span class="loading-text hidden">正在加载...</span>
+					</div>
+				</div>
+				<div class="collection-sidebar">
+					<div class="widget-container">
+						<section class="buzz-widget">
+							<div class="widget-header">
+								<h3>
+									<span>快讯</span>
+								</h3>
+							</div>
+							<ul class="buzz-widget-items js-buzz-widget-items">
+								<li class="buzz-widget-items__item">
+									<div class="time-and-title-box">
+										<div class="title">
+											<a class="js-click-buzz_url" data-href="https://www.ifanr.com/digest/" href="https://www.ifanr.com/digest/1111882"
+											 target="_blank">
+												<h2 class="buzz-widget-items__item__title js-clamp-lines--2">抖音 9 月永久封禁 2 万余账号</h2>
+											</a>
+										</div>
+										<div class="buzz-widget-items__item__meta">
+											<span>17 分钟前</span>
+										</div>
+									</div>
+									<div class="buzz-widget-items__item__content">
+										<div class="summary">
+											<div class="summary-text">抖音官方微头条账号发布了《抖音对违规账号及内容的处罚通告｜2018年10月》。通告显示，2018 年 9 月 1 日至 9 月 30 日，抖音平台累计清理
+												61294 条视频，9057 个音频，328 个挑战，永久封禁 24191 个账号。通告显示了 7
+												种受处罚账号及内容的主要类型：色情低俗、侮辱谩骂、造谣传谣、垃圾广告、侵犯版权、内容引人不适和涉嫌违反法律法规等。抖音表示，对于违规账号，平台根据情况严重程度，相应给予审核不通过、删除违规内容、内容不推荐、后台警示、限制上传视频、永久封禁、报警等处理结果。</div>
+										</div>
+										<div class="share">
+											<a href="https://www.jiemian.com/article/2530026.html" rel="nofollow noopener noreferrer" target="_blank"
+											 class="text-link">
+												<i class="ifanrx ifanrx-link"></i>
+												<span>原文链接</span>
+											</a>
+											<span>分享到</span>
+											<i class="ifanrx ifanrx-weibo weibo-hover">
+												<a class="weibo-link" href="http://v.t.sina.com.cn/share/share.php?url=https://www.ifanr.com/digest/1111882/&title=抖音 9 月永久封禁 2 万余账号"
+												 target="_blank"></a>
+											</i>
+											<i class="ifanrx ifanrx-wechat js-wechat-hover">
+											</i>
+										</div>
+									</div>
+									<div class="js-wechat buzz-widget-items__item__qrcode">
+										<div class="wechat-qrcode-left">
+											<h3>分享至微信</h3>
+											<p>使用微信扫码将网页分享到微信</p>
+										</div>
+										<div class="wechat-qrcode-right">
+											<div class="js-qrcode" data-qrcode-class="buzz-qrcode__image" data-url="https://www.ifanr.com/digest/1111882"></div>
+										</div>
+									</div>
+								</li>
+								<li class="buzz-widget-items__item">
+									<div class="time-and-title-box">
+										<div class="title">
+											<a class="js-click-buzz_url" data-href="https://www.ifanr.com/digest/" href="https://www.ifanr.com/digest/1111869"
+											 target="_blank">
+												<h2 class="buzz-widget-items__item__title js-clamp-lines--2">在飞猪预订后酒店称未见订单 1 天内退款收 80% 手续费</h2>
+											</a>
+										</div>
+										<div class="buzz-widget-items__item__meta">
+											<span>32 分钟前</span>
+										</div>
+									</div>
+									<div class="buzz-widget-items__item__content">
+										<div class="summary">
+											<div class="summary-text">货不对板退款难、退票手续费高达
+												80%、默认「捆绑」搭售依然存在……刚刚过去的「十一」黄金周期间，不少消费者对部分在线旅游平台（OTA）频频「吐槽」在网上引起热议。业内人士认为，「离谱」退改签费甚至拒绝退款等行为涉嫌霸王条款，有损消费者合法权益，消费者有理由维权。业内人士表示，高退票费违背公平交易的原则，损害了乘客的合法权益。高额退改签费用以及特价机票不退不换的条款应认定为无效。</div>
+										</div>
+										<div class="share">
+											<a href="https://tech.sina.com.cn/i/2018-10-11/doc-ihmhafiq9291535.shtml" rel="nofollow noopener noreferrer"
+											 target="_blank" class="text-link">
+												<i class="ifanrx ifanrx-link"></i>
+												<span>原文链接</span>
+											</a>
+											<span>分享到</span>
+											<i class="ifanrx ifanrx-weibo weibo-hover">
+												<a class="weibo-link" href="http://v.t.sina.com.cn/share/share.php?url=https://www.ifanr.com/digest/1111869/&title=在飞猪预订后酒店称未见订单 1 天内退款收 80% 手续费"
+												 target="_blank"></a>
+											</i>
+											<i class="ifanrx ifanrx-wechat js-wechat-hover">
+											</i>
+										</div>
+									</div>
+									<div class="js-wechat buzz-widget-items__item__qrcode">
+										<div class="wechat-qrcode-left">
+											<h3>分享至微信</h3>
+											<p>使用微信扫码将网页分享到微信</p>
+										</div>
+										<div class="wechat-qrcode-right">
+											<div class="js-qrcode" data-qrcode-class="buzz-qrcode__image" data-url="https://www.ifanr.com/digest/1111869"></div>
+										</div>
+									</div>
+								</li>
+								<li class="buzz-widget-items__item">
+									<div class="time-and-title-box">
+										<div class="title">
+											<a class="js-click-buzz_url" data-href="https://www.ifanr.com/digest/" href="https://www.ifanr.com/digest/1111909"
+											 target="_blank">
+												<h2 class="buzz-widget-items__item__title js-clamp-lines--2">掌趣科技：自研重点游戏表现出色，前三季度预盈逾 4.9 亿元</h2>
+											</a>
+										</div>
+										<div class="buzz-widget-items__item__meta">
+											<span>46 分钟前</span>
+										</div>
+									</div>
+									<div class="buzz-widget-items__item__content">
+										<div class="summary">
+											<div class="summary-text">掌趣科技（300315）预计前三季度预盈 4.9 亿元至 5.5 亿元，同比增长 24.28% 至
+												39.50%。业绩增长得益于公司第一季度陆续上线运营的自研重点游戏产品《奇迹 MU：觉醒》、《大掌门 2》市场表现出色。另外，前三季度非经常性损益对净利润的贡献金额预计为 800 万元至 1500
+												万元之间，主要系确认政府补助收益所致。</div>
+										</div>
+										<div class="share">
+											<a href="https://www.jiemian.com/article/2530111.html" rel="nofollow noopener noreferrer" target="_blank"
+											 class="text-link">
+												<i class="ifanrx ifanrx-link"></i>
+												<span>原文链接</span>
+											</a>
+											<span>分享到</span>
+											<i class="ifanrx ifanrx-weibo weibo-hover">
+												<a class="weibo-link" href="http://v.t.sina.com.cn/share/share.php?url=https://www.ifanr.com/digest/1111909/&title=掌趣科技：自研重点游戏表现出色，前三季度预盈逾 4.9 亿元"
+												 target="_blank"></a>
+											</i>
+											<i class="ifanrx ifanrx-wechat js-wechat-hover">
+											</i>
+										</div>
+									</div>
+									<div class="js-wechat buzz-widget-items__item__qrcode">
+										<div class="wechat-qrcode-left">
+											<h3>分享至微信</h3>
+											<p>使用微信扫码将网页分享到微信</p>
+										</div>
+										<div class="wechat-qrcode-right">
+											<div class="js-qrcode" data-qrcode-class="buzz-qrcode__image" data-url="https://www.ifanr.com/digest/1111909"></div>
+										</div>
+									</div>
+								</li>
+								<li class="buzz-widget-items__item">
+									<div class="time-and-title-box">
+										<div class="title">
+											<a class="js-click-buzz_url" data-href="https://www.ifanr.com/digest/" href="https://www.ifanr.com/digest/1111946"
+											 target="_blank">
+												<h2 class="buzz-widget-items__item__title js-clamp-lines--2">马云：杭州只要一部手机就可以 没有手机连要饭都困难</h2>
+											</a>
+										</div>
+										<div class="buzz-widget-items__item__meta">
+											<span>1 小时前</span>
+										</div>
+									</div>
+									<div class="buzz-widget-items__item__content">
+										<div class="summary">
+											<div class="summary-text">今日上午，杭州打造全国数字经济第一城动员大会在杭州云栖小镇举行。阿里巴巴董事局主席马云作主旨演讲，在演讲中马云表示「欧洲还在用现金，美国还在用信用卡，杭州只要一部手机就可以，没有手机连要饭都要不到。」</div>
+										</div>
+										<div class="share">
+											<a href="https://www.jiemian.com/article/2530173.html" rel="nofollow noopener noreferrer" target="_blank"
+											 class="text-link">
+												<i class="ifanrx ifanrx-link"></i>
+												<span>原文链接</span>
+											</a>
+											<span>分享到</span>
+											<i class="ifanrx ifanrx-weibo weibo-hover">
+												<a class="weibo-link" href="http://v.t.sina.com.cn/share/share.php?url=https://www.ifanr.com/digest/1111946/&title=马云：杭州只要一部手机就可以 没有手机连要饭都困难"
+												 target="_blank"></a>
+											</i>
+											<i class="ifanrx ifanrx-wechat js-wechat-hover">
+											</i>
+										</div>
+									</div>
+									<div class="js-wechat buzz-widget-items__item__qrcode">
+										<div class="wechat-qrcode-left">
+											<h3>分享至微信</h3>
+											<p>使用微信扫码将网页分享到微信</p>
+										</div>
+										<div class="wechat-qrcode-right">
+											<div class="js-qrcode" data-qrcode-class="buzz-qrcode__image" data-url="https://www.ifanr.com/digest/1111946"></div>
+										</div>
+									</div>
+								</li>
+								<li class="buzz-widget-items__item">
+									<div class="time-and-title-box">
+										<div class="title">
+											<a class="js-click-buzz_url" data-href="https://www.ifanr.com/digest/" href="https://www.ifanr.com/digest/1112049"
+											 target="_blank">
+												<h2 class="buzz-widget-items__item__title js-clamp-lines--2">Facebook 被要求公开内部文件以证隐私政策，法官驳回</h2>
+											</a>
+										</div>
+										<div class="buzz-widget-items__item__meta">
+											<span>1 小时前</span>
+										</div>
+									</div>
+									<div class="buzz-widget-items__item__content">
+										<div class="summary">
+											<div class="summary-text">北京时间 10 月 11 日下午消息，
+												<span id="usstock_FB">Facebook </span>
+												<span id="quote_FB"></span>试图赢得一项裁决，阻止一份长达数千页内部文件的发布，并进一步摆脱用户隐私带来的麻烦。加州一名州法官周三时暂时否决了某一应用开发商和媒体机构的要求，即试图公开诉讼案中涉及的大量公司记录和邮件。有些内容涉及
+												Facebook 高管近年来对隐私政策的制定与实施。该诉讼原告为一家存在时间极短之比基尼照片分享应用的开发商。在诉讼中，该开发商指控 Facebook 在 2015 年阻止他们访问 Facebook
+												上用户好友数据时违反了此前对应用开发商的承诺。Facebook 否认了该案中的指控，并认为开发商要求公布这些文件是「有意通过披露与裁决无关的机密信息来为难法庭并对 Facebook 造成损害」。
+											</div>
+										</div>
+										<div class="share">
+											<a href="https://tech.sina.com.cn/i/2018-10-11/doc-ifxeuwws3224383.shtml" rel="nofollow noopener noreferrer"
+											 target="_blank" class="text-link">
+												<i class="ifanrx ifanrx-link"></i>
+												<span>原文链接</span>
+											</a>
+											<span>分享到</span>
+											<i class="ifanrx ifanrx-weibo weibo-hover">
+												<a class="weibo-link" href="http://v.t.sina.com.cn/share/share.php?url=https://www.ifanr.com/digest/1112049/&title=Facebook 被要求公开内部文件以证隐私政策，法官驳回"
+												 target="_blank"></a>
+											</i>
+											<i class="ifanrx ifanrx-wechat js-wechat-hover">
+											</i>
+										</div>
+									</div>
+									<div class="js-wechat buzz-widget-items__item__qrcode">
+										<div class="wechat-qrcode-left">
+											<h3>分享至微信</h3>
+											<p>使用微信扫码将网页分享到微信</p>
+										</div>
+										<div class="wechat-qrcode-right">
+											<div class="js-qrcode" data-qrcode-class="buzz-qrcode__image" data-url="https://www.ifanr.com/digest/1112049"></div>
+										</div>
+									</div>
+								</li>
+								<li class="buzz-widget-items__item">
+									<div class="time-and-title-box">
+										<div class="title">
+											<a class="js-click-buzz_url" data-href="https://www.ifanr.com/digest/" href="https://www.ifanr.com/digest/1111914"
+											 target="_blank">
+												<h2 class="buzz-widget-items__item__title js-clamp-lines--2">福布斯全球最佳雇主榜：网易排名 80 大幅超腾讯、阿里</h2>
+											</a>
+										</div>
+										<div class="buzz-widget-items__item__meta">
+											<span>2 小时前</span>
+										</div>
+									</div>
+									<div class="buzz-widget-items__item__content">
+										<div class="summary">
+											<div class="summary-text">在这份榜单上排名靠前的公司大多为全球顶尖的公司。Alphabet 拥有8万名员工，去年销售额高达 1179 亿美元，利润为 166 亿美元，总资产 2069
+												亿美元，市值 7663 亿美元。竞争对手
+												<span id="usstock_MSFT">微软</span>
+												<span id="quote_MSFT"></span>再次紧随其后。排名前十的最佳雇主中，美国企业占到6家。除了 Alphabet 和微软之外，剩下的分别为
+												<span id="usstock_AAPL">苹果</span>
+												<span id="quote_AAPL"></span>（第三）、
+												<span id="usstock_DIS">迪士尼</span>
+												<span id="quote_DIS"></span>（第四）、
+												<span id="usstock_AMZN">亚马逊</span>
+												<span id="quote_AMZN"></span>（第五）、赛尔基因（第九）。榜单总体上以美国企业居多。在前 500 最佳雇主中，185 家企业来自美国。中国的企业仅占到 80
+												家。唯一一家挤进前十的是香港的
+												<span id="usstock_CEO">中国海洋石油</span>
+												<span id="quote_CEO"></span>公司（CNOOC）。在中国科技公司中，
+												<span id="usstock_NTES">网易</span>
+												<span id="quote_NTES"></span>、
+												<span id="usstock_JD">京东</span>
+												<span id="quote_JD"></span>、
+												<span id="hkstock_hk00700">腾讯</span>
+												<span id="quote_hk00700"></span>、
+												<span id="usstock_BABA">阿里巴巴</span>
+												<span id="quote_BABA"></span>、
+												<span id="usstock_VIPS">唯品会</span>
+												<span id="quote_VIPS"></span>上榜，排名分别为 80、131、165、332 和 414。
+											</div>
+										</div>
+										<div class="share">
+											<a href="https://tech.sina.com.cn/i/2018-10-11/doc-ifxeuwws3200927.shtml" rel="nofollow noopener noreferrer"
+											 target="_blank" class="text-link">
+												<i class="ifanrx ifanrx-link"></i>
+												<span>原文链接</span>
+											</a>
+											<span>分享到</span>
+											<i class="ifanrx ifanrx-weibo weibo-hover">
+												<a class="weibo-link" href="http://v.t.sina.com.cn/share/share.php?url=https://www.ifanr.com/digest/1111914/&title=福布斯全球最佳雇主榜：网易排名 80 大幅超腾讯、阿里"
+												 target="_blank"></a>
+											</i>
+											<i class="ifanrx ifanrx-wechat js-wechat-hover">
+											</i>
+										</div>
+									</div>
+									<div class="js-wechat buzz-widget-items__item__qrcode">
+										<div class="wechat-qrcode-left">
+											<h3>分享至微信</h3>
+											<p>使用微信扫码将网页分享到微信</p>
+										</div>
+										<div class="wechat-qrcode-right">
+											<div class="js-qrcode" data-qrcode-class="buzz-qrcode__image" data-url="https://www.ifanr.com/digest/1111914"></div>
+										</div>
+									</div>
+								</li>
+								<li class="buzz-widget-items__item">
+									<div class="time-and-title-box">
+										<div class="title">
+											<a class="js-click-buzz_url" data-href="https://www.ifanr.com/digest/" href="https://www.ifanr.com/digest/1111906"
+											 target="_blank">
+												<h2 class="buzz-widget-items__item__title js-clamp-lines--2">部分 Windows 10 Version 1809 安装累积更新后出现蓝屏问题</h2>
+											</a>
+										</div>
+										<div class="buzz-widget-items__item__meta">
+											<span>2 小时前</span>
+										</div>
+									</div>
+									<div class="buzz-widget-items__item__content">
+										<div class="summary">
+											<div class="summary-text">日前微软面向 Windows 10 October 2018 更新发布了 KB4464330
+												累积更新，带来了一些修复和改进，不过一些用户在安装该累积更新之后出现蓝屏现象。在社交网络和论坛社区上，有用户表示该累积更新在惠普工作站和部分电脑上导致蓝屏选项，似乎应该和惠普某个不兼容的驱动程序有关。</div>
+										</div>
+										<div class="share">
+											<a href="https://www.cnbeta.com/articles/tech/776443.htm" rel="nofollow noopener noreferrer" target="_blank"
+											 class="text-link">
+												<i class="ifanrx ifanrx-link"></i>
+												<span>原文链接</span>
+											</a>
+											<span>分享到</span>
+											<i class="ifanrx ifanrx-weibo weibo-hover">
+												<a class="weibo-link" href="http://v.t.sina.com.cn/share/share.php?url=https://www.ifanr.com/digest/1111906/&title=部分 Windows 10 Version 1809 安装累积更新后出现蓝屏问题"
+												 target="_blank"></a>
+											</i>
+											<i class="ifanrx ifanrx-wechat js-wechat-hover">
+											</i>
+										</div>
+									</div>
+									<div class="js-wechat buzz-widget-items__item__qrcode">
+										<div class="wechat-qrcode-left">
+											<h3>分享至微信</h3>
+											<p>使用微信扫码将网页分享到微信</p>
+										</div>
+										<div class="wechat-qrcode-right">
+											<div class="js-qrcode" data-qrcode-class="buzz-qrcode__image" data-url="https://www.ifanr.com/digest/1111906"></div>
+										</div>
+									</div>
+								</li>
+								<li class="buzz-widget-items__item">
+									<div class="time-and-title-box">
+										<div class="title">
+											<a class="js-click-buzz_url" data-href="https://www.ifanr.com/digest/" href="https://www.ifanr.com/digest/1111844"
+											 target="_blank">
+												<h2 class="buzz-widget-items__item__title js-clamp-lines--2">荣耀 Magic 2 开启预约：麒麟 980 加持 10 月 31 日发布</h2>
+											</a>
+										</div>
+										<div class="buzz-widget-items__item__meta">
+											<span>3 小时前</span>
+										</div>
+									</div>
+									<div class="buzz-widget-items__item__content">
+										<div class="summary">
+											<div class="summary-text">10 月 11 日消息，荣耀 Magic 2 上架京东商城并开启预约，该机将于 10 月 31 日在北京正式发布。作为荣耀旗舰产品，荣耀 Magic 2
+												最大的亮点是拥有近乎 100% 的屏占比。核心配置上，荣耀 Magic 2 将搭载麒麟 980 处理器，这颗芯片基于 7nm 工艺制程打造，并在全球范围内率先实现基于 Cortex A76
+												架构的开发商用，并在业内首商用 Mali-G76 GPU。此外，荣耀 Magic 2 还将支持屏幕指纹识别，这是荣耀旗下首款屏幕指纹手机。</div>
+										</div>
+										<div class="share">
+											<a href="https://www.cnbeta.com/articles/tech/776419.htm" rel="nofollow noopener noreferrer" target="_blank"
+											 class="text-link">
+												<i class="ifanrx ifanrx-link"></i>
+												<span>原文链接</span>
+											</a>
+											<span>分享到</span>
+											<i class="ifanrx ifanrx-weibo weibo-hover">
+												<a class="weibo-link" href="http://v.t.sina.com.cn/share/share.php?url=https://www.ifanr.com/digest/1111844/&title=荣耀 Magic 2 开启预约：麒麟 980 加持 10 月 31 日发布"
+												 target="_blank"></a>
+											</i>
+											<i class="ifanrx ifanrx-wechat js-wechat-hover">
+											</i>
+										</div>
+									</div>
+									<div class="js-wechat buzz-widget-items__item__qrcode">
+										<div class="wechat-qrcode-left">
+											<h3>分享至微信</h3>
+											<p>使用微信扫码将网页分享到微信</p>
+										</div>
+										<div class="wechat-qrcode-right">
+											<div class="js-qrcode" data-qrcode-class="buzz-qrcode__image" data-url="https://www.ifanr.com/digest/1111844"></div>
+										</div>
+									</div>
+								</li>
+							</ul>
+							<div class="clear"></div>
+							<div class="buzz-widget-url_buzz">
+								<a href="https://www.ifanr.com/buzz/1112121">
+									<span>“支付宝会说法语吗？” 世行年会，IMF总裁拉加德变身“好奇宝宝”</span>
+								</a>
+								<a href="https://www.ifanr.com/buzz/1112120">
+									<span>搜狐告百度、今日头条侵权盗版72小时后，百度网盘仍能下载侵权剧</span>
+								</a>
+								<a href="https://www.ifanr.com/buzz/1112077">
+									<span>格力电器发布关于“网友威胁崔永元”事件严正声明</span>
+								</a>
+								<a href="https://www.ifanr.com/buzz/1112054">
+									<span>福布斯全球最佳雇主榜：网易排名80 大幅超腾讯阿里</span>
+								</a>
+								<a href="https://www.ifanr.com/buzz/1112052">
+									<span>中科院入驻快手：作品近3000万播放量，实力诠释科研的两张面孔</span>
+								</a>
+								<a href="https://www.ifanr.com/buzz/1111885">
+									<span>中美基础教育比较：kids are kids</span>
+								</a>
+								<a href="https://www.ifanr.com/buzz/1111880">
+									<span>“孤独症孩子也可以有未来” ——探访美国兰德马克大学</span>
+								</a>
+								<a href="https://www.ifanr.com/buzz/1111879">
+									<span>大搜车与中石油昆仑好客达成战略合作，2万多家加油站开启汽车新零售</span>
+								</a>
+							</div>
+							<div class="buzz-footer">
+								<a href="https://www.ifanr.com/digest/" target="_blank">
+									<span class="load-others-btn" ga-bind="click" ga-category="LiveArticlePage_List" ga-action="LoadMore"
+									 ga-label="LoadMoreButton">查看更多</span>
+								</a>
+							</div>
+						</section>
+						<section class="feature-widget">
+						</section>
+						<section class="column-widget">
+							<div class="widget-header">
+								<h3>
+									<span>栏目推荐</span>
+								</h3>
+							</div>
+							<ul class="column-widget-items js-column-list">
+							</ul>
+							<a class="column-subscription" href="https://www.ifanr.com/ifanr-app-download/" ga-bind="click" ga-action="SubscribeButton"
+							 ga-category="ColumnPage_List" target="_blank">
+								<span>想要订阅你的专属资讯，戳这里</span>
+								<i class="ifanrx ifanrx-arrow-right"></i>
+							</a>
+						</section>
+					</div>
+					<div class="ads-container">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<% }) %>

@@ -1,0 +1,1 @@
+import artTemplate from 'art-template'

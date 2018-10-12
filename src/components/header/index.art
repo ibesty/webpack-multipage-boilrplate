@@ -1,0 +1,129 @@
+<header class="c-global-header">
+	<div class="c-header-navbar">
+		<div class="c-header-navbar__content">
+			<div class="c-header-navbar－content__left">
+				<a ga-bind="click" ga-action="click" ga-category="MainPage_Header" ga-label="ifanr Button" href="https://www.ifanr.com/">
+					<img class="c-header-navbar__logo" src="https://images.ifanr.cn/wp-content/themes/ifanr-5.0-pc/static/images/ifanr/ifanr-logo.svg">
+
+				</a>
+				<ul class="c-header-navigation">
+					<li class="c-header-navigation__item">
+						<a href="#" target="_blank" ga-bind="click" ga-category="MainPage_Header" ga-action="ClickCoolbuy"
+						 ga-label="Coolbuy Button">好物商店</a>
+					</li>
+					<li class="c-header-navigation__item">
+						<a href="#" target="_blank" ga-bind="click" ga-category="MainPage_Header" ga-action="ClickMinapp"
+						 ga-label="Minapp Button">知晓程序</a>
+					</li>
+					<li class="c-header-navigation__item">
+						<a href="#" target="_blank" ga-bind="click"
+						 ga-category="MainPage_Header" ga-action="ClickCloudminapp" ga-label="CloudMinapp Button">知晓云</a>
+					</li>
+					<li class="c-header-navigation__item">
+						<a href="#" target="_blank" ga-bind="click" ga-category="MainPage_Header" ga-action="ClickCloudminapp"
+						 ga-label="CloudMinapp Button">未来实验室</a>
+					</li>
+				</ul>
+			</div>
+			<div class="c-header-navbar－content__right">
+				<div class="c-header-sns__about--hover">
+					<a href="/ifanr-app-download/" target="_blank" ga-bind="click" ga-category="MainPage_Header" ga-action="ClickDownloadPage"
+					 ga-label="DownloadPage Button">
+						<i class="ifanrx ifanrx-phone icon-phone"></i>
+						下载客户端
+					</a>
+					<div class="c-download-client o-navbar-tooltip" ga-bind="hover" ga-category="MainPage_Header" ga-label="HoverDownloadPage"
+					 ga-action="DownloadPage">
+						<img src="https://images.ifanr.cn/wp-content/themes/ifanr-5.0-pc/static/images/ifanr-app.png" alt="下载客户端">
+						<div class="o-navbar-tooltip__spliter"></div>
+						<img src="https://images.ifanr.cn/wp-content/themes/ifanr-5.0-pc/static/images/ifanr/ifanr-nav-logo.svg" alt="爱范儿 logo">
+
+					</div>
+				</div>
+				<a class="c-header-navbar__report" href="https://www.ifanr.com/about/contribute/" ga-bind="click" ga-category="MainPage_Header"
+				 ga-action="ToReport" ga-label="Report Page">寻求报道</a>
+				<ul class="c-global-navbar__user c-user-bar">
+					<li class="js-navbar-user-unauthenticated c-user-bar__unauthenticated">
+						<a class="c-global-navbar-login js-button-login" ga-bind="click" ga-category="MainPage_Header" ga-action="ClickLogin"
+						 ga-label="login">登录</a>
+					</li>
+					<li class="js-navbar-user-unauthenticated c-user-bar__unauthenticated">
+						<a class="c-global-navbar-login js-button-register" ga-bind="click" ga-category="MainPage_Header" ga-action="ToSign-up"
+						 ga-label="register">注册</a>
+					</li>
+					<li class="js-navbar-user-authenticated c-user-bar__authenticated is-hidden">
+						<img class="js-user-avatar c-user-bar__avatar" src="#" ga-bind="click" ga-category="MainPage_Header" ga-action="Profile"
+						 ga-label="enter">
+
+					</li>
+					<div class="user-panel hidden">
+						<div class="user-card">
+							<div class="user-info">
+								<img class="user-info__avatar" src="#" alt="" ga-bind="click" ga-category="Head" ga-action="Profile" ga-label="avator">
+								<div class="user-info__nickname-email">
+									<span class="user-info__nickname"></span>
+									<span class="user-info__email"></span>
+								</div>
+								<a href="https://sso.ifanr.com/myaccount/" target="_blank" class="cover-block">
+
+								</a>
+							</div>
+							<ul class="user-nav">
+								<li>
+									<a href="https://sso.ifanr.com/myactivity/" ga-bind="click" ga-category="Head" ga-action="Profile" ga-label="myrecent"
+									 target="_blank">我的动态</a>
+								</li>
+								<li>
+									<a href="https://sso.ifanr.com/mymessage/" ga-bind="click" ga-category="Head" ga-action="Profile" ga-label="notice"
+									 target="_blank">消息中心
+										<span class="notification-count"></span>
+									</a>
+								</li>
+								<li>
+									<a href="https://sso.ifanr.com/mycollection/" ga-bind="click" ga-category="Head" ga-action="Profile" ga-label="mycollection"
+									 target="_blank">我的收藏</a>
+								</li>
+								<li>
+									<a href="https://sso.ifanr.com/myaccount/" ga-bind="click" ga-category="Head" ga-action="Profile" ga-label="mysetting"
+									 target="_blank">账户设置</a>
+								</li>
+							</ul>
+							<a href="https://sso.ifanr.com/logout/" class="user-card__logout-link" ga-bind="click" ga-category="Head"
+							 ga-action="Profile" ga-label="logout">退出登录</a>
+						</div>
+					</div>
+				</ul>
+				<div class="c-header-navbar__search">
+					<i class="js-navbar-search-btn ifanrx ifanrx-search" ga-bind="click" ga-category="MainPage_Header" ga-action="ClickSearchButton"
+					 ga-label="search button"></i>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="c-content-search c-content-search_modal">
+		<div class="c-content-search__input">
+			<i class="c-content-search__close ifanrx ifanrx-guanbi-sousuolan js-search-close-btn"></i>
+			<input class="js-modal-search-input" type="input" name="" placeholder="请输入关键字" data-query="">
+			<i class="c-content-search__search ifanrx ifanrx-sousuo-sousuolan js-modal-search-btn" href=""></i>
+		</div>
+		<div class="clearfix c-content-search__empty-box is-hidden js-search-empty">
+			<div class="c-content-hot__search">
+				<div class="c-content-hot__label">热门搜索</div>
+				<ul class="c-header-search__hot-word">
+				</ul>
+			</div>
+			<div class="c-content-hot__recommend">
+				<div class="c-content-hot__label">热门推荐</div>
+				<div class="inner-box"></div>
+			</div>
+		</div>
+		<div class="c-content-search__result js-search-result is-hidden">
+			<p class="c-content-search-result__title">为您查询到
+				<span class="js-search-result-count"></span> 篇文章
+			</p>
+			<ul class="js-search-result-list"></ul>
+			<button class="c-search-load-more js-search-load-more">加载更多</button>
+		</div>
+		<div class="c-content-search__loading js-search-loading"></div>
+	</div>
+</header>
