@@ -9,29 +9,35 @@ const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPl
 var OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
 const extractTextPlugin = require("extract-text-webpack-plugin");
 const webpackConfigBase = require('./webpack.base.conf');
+
+const argv = require('yargs').argv;
+const project = argv.project;
+const config = require('../config');
+
 const webpackConfigProd = {
 	mode: 'production', // 通过 mode 声明生产环境
 	output: {
-		path: path.resolve(__dirname, '../dist'),
+		path: path.resolve(config.outputDir, `./${project}/`),
 		// 打包多出口文件
 		// 生成 a.bundle.[hash].js  b.bundle.[hash].js
-		filename: './js/[name].[hash].js',
+		filename: 'assets/js/[name].[hash].js',
 		publicPath: './'
 	},
 	devtool: 'cheap-source-map',
 	plugins: [
 		//删除dist目录
-		new cleanWebpackPlugin(['dist'], {
-			root: path.resolve(__dirname, '../'), //根目录
+		new cleanWebpackPlugin(['assets'], {
+			root: path.resolve(config.outputDir, `./${project}/`), //根目录
 			// verbose Write logs to console.
 			verbose: true, //开启在控制台输出信息
 			// dry Use boolean "true" to test/emulate delete. (will not remove files).
 			// Default: false - remove files
 			dry: false,
+			watch: true
 		}),
 		// 分离css插件参数为提取出去的路径
 		new extractTextPlugin({
-			filename: 'css/[name].[hash:8].min.css',
+			filename: 'assets/css/[name].[hash:8].min.css',
 		}),
 		//压缩css
 		new OptimizeCSSPlugin({
@@ -50,7 +56,7 @@ const webpackConfigProd = {
 				}
 			}
 		}),
-		new BundleAnalyzerPlugin(),
+		// new BundleAnalyzerPlugin(),
 	],
 	module: {
 		rules: []

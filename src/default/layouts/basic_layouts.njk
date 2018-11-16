@@ -37,12 +37,12 @@
       <div class="white"></div>
       <div class="red"></div>
     </div>
-    <% include('../components/sider_menu/index.art') %>
-    <% block('header', function(){ %><% }) %>
-    <% block('content', function(){ %><% }) %>
+    @{% include '~components/sider_menu/index.njk' %}
+    @{% block header %}@{% endblock %}
+    @{% block content %}@{% endblock %}
     <div class="u-clearfix footer-content"></div>
-    <% include('../components/footer/index.art') %>
-    <% include('../components/go_to_top/index.art') %>
+    @{% include '~components/footer/index.njk' %}
+    @{% include '~components/go_to_top/index.njk' %}
     
     <script type='text/javascript' src='https://images.ifanr.cn/wp-content/themes/ifanr-5.0-pc/static/dist/app-3994d723df.min.js?ver=4.9.8'></script>
 

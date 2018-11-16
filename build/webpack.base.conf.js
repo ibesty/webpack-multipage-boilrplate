@@ -1,9 +1,15 @@
 const path = require('path');
 const webpack = require("webpack");
 const glob = require("glob");
+const replaceAngleBracket = require('../lib/replaceAngleBracket');
+const argv = require('yargs').argv;
+const config = require('../config');
+// console.log(config)
+const project = argv.project;
 
-const resolve = path.resolve
-// 分离css
+if (!project) {
+	throw new Error('未指定项目, 请指定 --project 参数')
+}
 
 //消除冗余的css
 const purifyCssWebpack = require("purifycss-webpack");
@@ -12,10 +18,11 @@ const htmlWebpackPlugin = require("html-webpack-plugin");
 //静态资源输出
 const copyWebpackPlugin = require("copy-webpack-plugin");
 const rules = require("./webpack.rules.conf.js");
+
 // 获取html-webpack-plugin参数的方法
 var getHtmlConfig = function (name, chunks) {
 	return {
-		template: `${path.join(__dirname, `../src/pages/${name}/index.art`)}`,
+		template: `./src/${project}/pages/${name}/index.njk`,
 		filename: `${name}.html`,
 		// favicon: './favicon.ico',
 		// title: title,
@@ -24,8 +31,8 @@ var getHtmlConfig = function (name, chunks) {
 		chunks: chunks,
 		minify: process.env.NODE_ENV === "development" ? false : {
 			removeComments: true, //移除HTML中的注释
-			collapseWhitespace: true, //折叠空白区域 也就是压缩代码
-			removeAttributeQuotes: true, //去除属性引用
+			collapseWhitespace: false, //折叠空白区域 也就是压缩代码
+			removeAttributeQuotes: false, //去除属性引用
 		},
 	};
 };
@@ -48,22 +55,18 @@ module.exports = {
 		}),
 		//静态资源输出
 		new copyWebpackPlugin([{
-			from: path.resolve(__dirname, "../src/assets"),
-			to: './assets',
+			from: path.resolve(__dirname, `../src/${project}/public`),
+			to: path.resolve(config.outputDir, `./${project}/`),
 			ignore: ['.*']
 		}]),
 		// 消除冗余的css代码
 		new purifyCssWebpack({
-			paths: glob.sync(path.join(__dirname, "../src/pages/*/*.html"))
+			paths: glob.sync(path.join(__dirname, `../src/${project}/pages/*/*.njk`))
 		}),
 
-	],
-	// resolve: {
-	// 	modules: [
-	// 		path.resolve(__dirname, 'node_modules'),
-	// 		path.resolve(__dirname, 'src')
-	// 	]
-	// }
+		new replaceAngleBracket()
+
+	]
 	// webpack4里面移除了commonChunksPulgin插件，放在了config.optimization里面,提取js， vendor名字可改
 	// optimization: {
 	// 	splitChunks: {
@@ -81,13 +84,31 @@ module.exports = {
 	// 	}
 	// },
 }
+//配置页面
+// const htmlArray = [{
+// 		_html: 'index',
+// 		title: '首页',
+// 		chunks: [ 'index']
+// 	},
+// 	{
+// 		_html: 'login',
+// 		title: '登录',
+// 		chunks: ['login']
+// 	},
+// ];
+
+//自动生成html模板
+// htmlArray.forEach((element) => {
+// 	module.exports.plugins.push(new htmlWebpackPlugin(getHtmlConfig(element._html, element.chunks)));
+// })
 
 getEntry().forEach(item => {
-  module.exports.plugins.push(new htmlWebpackPlugin(getHtmlConfig(item.k, [item.k])))
+	// console.log(item)
+	module.exports.plugins.push(new htmlWebpackPlugin(getHtmlConfig(item.k, [item.k], item.dir)))
 })
 
 function getEntry () {
-  let globPath = 'src/pages/*/index.js'
+  let globPath = `src/${project}/pages/*/index.js`
   // (\/|\\\\) 这种写法是为了兼容 windows和 mac系统目录路径的不同写法
   let pathDir = 'src(\/|\\\\)pages(\/|\\\\)(.*?)(\/|\\\\)'
   let files = glob.sync(globPath)
@@ -95,10 +116,11 @@ function getEntry () {
 	// console.log(files)
   for (let i = 0; i < files.length; i++) {
 		dirname = path.dirname(files[i])
-		let key = dirname.slice(dirname.lastIndexOf('/') + 1)
+		let key = path.basename(dirname)
 		entries.push({
 			k: key,
-			v: files[i]
+			v: files[i],
+			dir: dirname
 		})
 	}
   return entries
